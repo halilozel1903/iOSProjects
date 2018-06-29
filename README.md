@@ -17,6 +17,8 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Segues](https://github.com/halilozel1903/iOSProjects/tree/master/Segues)
 - [Timers](https://github.com/halilozel1903/iOSProjects/tree/master/Timers)
 - [Gesture Recognizer](https://github.com/halilozel1903/iOSProjects/tree/master/GestureRecogziner)
+- [Colors](https://github.com/halilozel1903/iOSProjects/tree/master/Colors)
+- [Launch Screen](https://github.com/halilozel1903/iOSProjects/tree/master/LaunchScreen)
 
 
 ## Yararlandığım Kaynaklar
