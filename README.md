@@ -19,6 +19,9 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Gesture Recognizer](https://github.com/halilozel1903/iOSProjects/tree/master/GestureRecogziner)
 - [Colors](https://github.com/halilozel1903/iOSProjects/tree/master/Colors)
 - [Launch Screen](https://github.com/halilozel1903/iOSProjects/tree/master/LaunchScreen)
+- [Alert](https://github.com/halilozel1903/iOSProjects/tree/master/AlertProject)
+- [Table View](https://github.com/halilozel1903/iOSProjects/tree/master/TableViewExample)
+- [Core Data](https://github.com/halilozel1903/iOSProjects/tree/master/CoreDataExample)
 
 
 ## Yararlandığım Kaynaklar
