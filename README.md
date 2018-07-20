@@ -26,6 +26,8 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [TouchID](https://github.com/halilozel1903/iOSProjects/tree/master/TouchID)
 - [Tab Bars](https://github.com/halilozel1903/iOSProjects/tree/master/TabExample)
 - [IntelligentImage](https://github.com/halilozel1903/iOSProjects/tree/master/IntelligentImage)
+- [Navigation Bar](https://github.com/halilozel1903/iOSProjects/tree/master/NavigationBar)
+- [Toolbar](https://github.com/halilozel1903/iOSProjects/tree/master/Toolbar)
 
 
 ## Yararlandığım Kaynaklar
@@ -34,6 +36,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 2. https://www.raywenderlich.com/category/ios
 3. https://gelecegiyazanlar.turkcell.com.tr/konu/ios
 4. https://developer.apple.com/
+5. https://www.udemy.com/swift-4-ile-baslangictan-ileri-seviyeye-mobil-uygulama-egitimi
 
 
 # NOT
