@@ -31,6 +31,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Kronometre](https://github.com/halilozel1903/iOSProjects/tree/master/KronometreApp)
 - [Klavyeyi Kontrol Etme](https://github.com/halilozel1903/iOSProjects/tree/master/KlavyeyiKontrolEtme)
 - [ViewController](https://github.com/halilozel1903/iOSProjects/tree/master/ViewControllerApp)
+- [Table View Example](https://github.com/halilozel1903/iOSProjects/tree/master/TableApp)
 
 
 ## Yararlandığım Kaynaklar
