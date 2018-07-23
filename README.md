@@ -28,6 +28,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [IntelligentImage](https://github.com/halilozel1903/iOSProjects/tree/master/IntelligentImage)
 - [Navigation Bar](https://github.com/halilozel1903/iOSProjects/tree/master/NavigationBar)
 - [Toolbar](https://github.com/halilozel1903/iOSProjects/tree/master/Toolbar)
+- [Kronometre](https://github.com/halilozel1903/iOSProjects/tree/master/KronometreApp)
 
 
 ## Yararlandığım Kaynaklar
