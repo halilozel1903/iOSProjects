@@ -33,6 +33,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [ViewController](https://github.com/halilozel1903/iOSProjects/tree/master/ViewControllerApp)
 - [Table View Example](https://github.com/halilozel1903/iOSProjects/tree/master/TableApp)
 - [Table View Search](https://github.com/halilozel1903/iOSProjects/tree/master/TableViewSearch)
+- [Collection View](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApp)
 
 
 ## Yararlandığım Kaynaklar
