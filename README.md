@@ -34,15 +34,19 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Table View Example](https://github.com/halilozel1903/iOSProjects/tree/master/TableApp)
 - [Table View Search](https://github.com/halilozel1903/iOSProjects/tree/master/TableViewSearch)
 - [Collection View](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApp)
+- [UIViewControllerLifecycle](https://github.com/halilozel1903/iOSProjects/tree/master/UIViewControllerLifecycle)
+- [TabBarApp](https://github.com/halilozel1903/iOSProjects/tree/master/TabBarApp)
+- [SwitchScreens](https://github.com/halilozel1903/iOSProjects/tree/master/SwitchScreens)
 
 
 ## Yararlandığım Kaynaklar
 
-1. https://www.udemy.com/ios-11-swift-4-baslangictan-ileri-seviyeye-mobil-uygulama
-2. https://www.raywenderlich.com/category/ios
-3. https://gelecegiyazanlar.turkcell.com.tr/konu/ios
-4. https://developer.apple.com/
-5. https://www.udemy.com/swift-4-ile-baslangictan-ileri-seviyeye-mobil-uygulama-egitimi
+
+1. https://www.udemy.com/swift-4-ile-baslangictan-ileri-seviyeye-mobil-uygulama-egitimi
+2. https://www.udemy.com/ios-11-swift-4-baslangictan-ileri-seviyeye-mobil-uygulama
+3. https://www.raywenderlich.com/category/ios
+4. https://gelecegiyazanlar.turkcell.com.tr/konu/ios
+5. https://developer.apple.com/
 
 
 # NOT
