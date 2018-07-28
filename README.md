@@ -37,6 +37,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [UIViewControllerLifecycle](https://github.com/halilozel1903/iOSProjects/tree/master/UIViewControllerLifecycle)
 - [TabBarApp](https://github.com/halilozel1903/iOSProjects/tree/master/TabBarApp)
 - [SwitchScreens](https://github.com/halilozel1903/iOSProjects/tree/master/SwitchScreens)
+- [Delegate](https://github.com/halilozel1903/iOSProjects/tree/master/DelegateDataSaved)
 
 
 ## Yararlandığım Kaynaklar
