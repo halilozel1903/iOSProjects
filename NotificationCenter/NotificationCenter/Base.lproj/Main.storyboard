@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EOd-y2-sFL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NotificationCenter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hangi takımlısınız ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBW-DW-pdK">
+                                <rect key="frame" x="44" y="94" width="287" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Jnj-gO-oRc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZL-zE-qRl">
+                                <rect key="frame" x="85" y="198" width="205" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGW-W6-E9W">
+                                <rect key="frame" x="125" y="305" width="125" height="56"/>
+                                <state key="normal" title="Takımı Seç"/>
+                                <connections>
+                                    <action selector="teamSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xx-Tt-Kcs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DBW-DW-pdK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="0br-uD-BFd"/>
+                            <constraint firstItem="DBW-DW-pdK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="G41-wW-Hlk"/>
+                            <constraint firstItem="uGW-W6-E9W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="Gpi-NV-Cik"/>
+                            <constraint firstItem="kZL-zE-qRl" firstAttribute="top" secondItem="DBW-DW-pdK" secondAttribute="bottom" constant="64" id="MTc-6f-f1a"/>
+                            <constraint firstItem="uGW-W6-E9W" firstAttribute="top" secondItem="kZL-zE-qRl" secondAttribute="bottom" constant="54" id="PdK-Mv-7KI"/>
+                            <constraint firstItem="kZL-zE-qRl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="R9q-DL-h9n"/>
+                            <constraint firstItem="DBW-DW-pdK" firstAttribute="centerX" secondItem="kZL-zE-qRl" secondAttribute="centerX" id="Ws1-Fs-M5a"/>
+                            <constraint firstItem="kZL-zE-qRl" firstAttribute="centerX" secondItem="uGW-W6-E9W" secondAttribute="centerX" id="XoW-Za-pjb"/>
+                            <constraint firstItem="DBW-DW-pdK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eo2-En-mse"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uGW-W6-E9W" secondAttribute="bottom" constant="306" id="kpB-f3-rF1"/>
+                            <constraint firstItem="uGW-W6-E9W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xPD-FJ-705"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hPq-OG-2fB"/>
+                    <connections>
+                        <outlet property="teamLabel" destination="kZL-zE-qRl" id="DSb-we-YMP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725.60000000000002" y="132.68365817091455"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="72s-bG-9kA">
+            <objects>
+                <viewController storyboardIdentifier="StoryboardViewControllerID" id="2Np-Kz-168" customClass="SecondViewController" customModule="NotificationCenter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5ID-Cq-aj6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxD-FS-758">
+                                <rect key="frame" x="147" y="301" width="81" height="30"/>
+                                <state key="normal" title="Galatasaray"/>
+                                <connections>
+                                    <action selector="teamSelectAction:" destination="2Np-Kz-168" eventType="touchUpInside" id="s6K-9t-4SN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAn-el-ygP">
+                                <rect key="frame" x="146" y="421" width="82" height="30"/>
+                                <state key="normal" title="Fenerbahçe"/>
+                                <connections>
+                                    <action selector="teamSelectAction:" destination="2Np-Kz-168" eventType="touchUpInside" id="Zwv-eq-7zk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UP-nW-QYg">
+                                <rect key="frame" x="158" y="181" width="58" height="30"/>
+                                <state key="normal" title="Beşiktaş"/>
+                                <connections>
+                                    <action selector="teamSelectAction:" destination="2Np-Kz-168" eventType="touchUpInside" id="TOU-4j-T2v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SxD-FS-758" firstAttribute="top" secondItem="5ID-Cq-aj6" secondAttribute="top" constant="301" id="2Ym-Pc-3Xa"/>
+                            <constraint firstItem="SxD-FS-758" firstAttribute="trailing" secondItem="QAn-el-ygP" secondAttribute="trailing" id="Gsk-3J-sXU"/>
+                            <constraint firstItem="QAn-el-ygP" firstAttribute="top" secondItem="SxD-FS-758" secondAttribute="bottom" constant="90" id="RAi-72-wit"/>
+                            <constraint firstItem="4UP-nW-QYg" firstAttribute="top" secondItem="qyn-kc-OGj" secondAttribute="top" constant="161" id="ajo-yx-Gzb"/>
+                            <constraint firstItem="qyn-kc-OGj" firstAttribute="bottom" secondItem="QAn-el-ygP" secondAttribute="bottom" constant="216" id="avU-3b-P2U"/>
+                            <constraint firstItem="4UP-nW-QYg" firstAttribute="centerX" secondItem="SxD-FS-758" secondAttribute="centerX" id="hwj-KT-K1W"/>
+                            <constraint firstItem="4UP-nW-QYg" firstAttribute="centerX" secondItem="5ID-Cq-aj6" secondAttribute="centerX" id="yis-oE-ehX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qyn-kc-OGj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jq5-Kn-cLk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="868"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lCL-i4-hqQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EOd-y2-sFL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lHd-qm-3M4">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="n6q-2a-6oI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hU8-fB-KIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="133"/>
+        </scene>
+    </scenes>
+</document>
