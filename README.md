@@ -38,6 +38,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [TabBarApp](https://github.com/halilozel1903/iOSProjects/tree/master/TabBarApp)
 - [SwitchScreens](https://github.com/halilozel1903/iOSProjects/tree/master/SwitchScreens)
 - [Delegate](https://github.com/halilozel1903/iOSProjects/tree/master/DelegateDataSaved)
+- [NotificationCenter](https://github.com/halilozel1903/iOSProjects/tree/master/NotificationCenter)
 
 
 ## Yararlandığım Kaynaklar
