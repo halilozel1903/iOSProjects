@@ -39,6 +39,8 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [SwitchScreens](https://github.com/halilozel1903/iOSProjects/tree/master/SwitchScreens)
 - [Delegate](https://github.com/halilozel1903/iOSProjects/tree/master/DelegateDataSaved)
 - [NotificationCenter](https://github.com/halilozel1903/iOSProjects/tree/master/NotificationCenter)
+- [FindMyAge](https://github.com/halilozel1903/iOSProjects/tree/master/FindMyAge)
+- [Calculator](https://github.com/halilozel1903/iOSProjects/tree/master/Calculator)
 
 
 ## Yararlandığım Kaynaklar
