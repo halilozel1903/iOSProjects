@@ -41,6 +41,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [NotificationCenter](https://github.com/halilozel1903/iOSProjects/tree/master/NotificationCenter)
 - [FindMyAge](https://github.com/halilozel1903/iOSProjects/tree/master/FindMyAge)
 - [Calculator](https://github.com/halilozel1903/iOSProjects/tree/master/Calculator)
+- [Animations](https://github.com/halilozel1903/iOSProjects/tree/master/Animations)
 
 
 ## Yararlandığım Kaynaklar
