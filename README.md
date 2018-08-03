@@ -47,6 +47,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Alert View](https://github.com/halilozel1903/iOSProjects/tree/master/AlertViewApp)
 - [Picker View](https://github.com/halilozel1903/iOSProjects/tree/master/PickerViewApp)
 - [Date Picker](https://github.com/halilozel1903/iOSProjects/tree/master/DatePickerViewApp)
+- [Web View](https://github.com/halilozel1903/iOSProjects/tree/master/WebViewApp)
 
 
 ## Yararlandığım Kaynaklar
