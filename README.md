@@ -44,6 +44,9 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Animations](https://github.com/halilozel1903/iOSProjects/tree/master/Animations)
 - [SwipeAndShakeApp](https://github.com/halilozel1903/iOSProjects/tree/master/SwipeAndShakeApp)
 - [SwipeGestureRecognizer](https://github.com/halilozel1903/iOSProjects/tree/master/SwipeGestureRecognizer)
+- [Alert View](https://github.com/halilozel1903/iOSProjects/tree/master/AlertViewApp)
+- [Picker View](https://github.com/halilozel1903/iOSProjects/tree/master/PickerViewApp)
+- [Date Picker](https://github.com/halilozel1903/iOSProjects/tree/master/DatePickerViewApp)
 
 
 ## Yararlandığım Kaynaklar
