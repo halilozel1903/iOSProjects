@@ -48,6 +48,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [Picker View](https://github.com/halilozel1903/iOSProjects/tree/master/PickerViewApp)
 - [Date Picker](https://github.com/halilozel1903/iOSProjects/tree/master/DatePickerViewApp)
 - [Web View](https://github.com/halilozel1903/iOSProjects/tree/master/WebViewApp)
+- [MVC App](https://github.com/halilozel1903/iOSProjects/tree/master/MVCApp)
 
 
 ## Yararlandığım Kaynaklar
@@ -58,7 +59,8 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 3. https://www.raywenderlich.com/category/ios
 4. https://gelecegiyazanlar.turkcell.com.tr/konu/ios
 5. https://developer.apple.com/
+6. https://www.udemy.com/ios-11-swift-4-ve-firebase-ile-uygulama-gelistirme
 
 
 # NOT
-Projeler eklenmeye devam edecektir. <br>
+Projeler ve örnekler eklenmeye devam edecektir. <br>
