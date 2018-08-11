@@ -52,6 +52,8 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [MVVM App](https://github.com/halilozel1903/iOSProjects/tree/master/MVVMApp)
 - [Cocoa Pods App](https://github.com/halilozel1903/iOSProjects/tree/master/CocoaPodsApp)
 - [AudioSpeechRecognition](https://github.com/halilozel1903/iOSProjects/tree/master/AudioSpeechRecognition)
+- [SpeechRecognition](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechRecognition)
+- [SpeechApp](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechApp)
 
 
 ## Yararlandığım Kaynaklar
