@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -106,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 9F98280420E4FCB500FF75D2 /* Build configuration list for PBXProject "GestureRecogziner" */;
-			compatibilityVersion = "Xcode 9.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

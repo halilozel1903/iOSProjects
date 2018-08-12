@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -109,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = 9F30AAD120EA164A00AE5A58 /* Build configuration list for PBXProject "CoreDataExample" */;
-			compatibilityVersion = "Xcode 9.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
