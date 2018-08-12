@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -100,7 +100,7 @@
 				};
 			};
 			buildConfigurationList = 9FCD8551210B036A004D57D2 /* Build configuration list for PBXProject "UIViewControllerLifecycle" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 9.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

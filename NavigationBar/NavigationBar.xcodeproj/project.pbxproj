@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -100,7 +100,7 @@
 				};
 			};
 			buildConfigurationList = 9FED3F0121022CE700581B14 /* Build configuration list for PBXProject "NavigationBar" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 9.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,7 @@
 				};
 			};
 			buildConfigurationList = 9F6E0309211DB6E5006320AE /* Build configuration list for PBXProject "SpeechRecognition" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 9.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

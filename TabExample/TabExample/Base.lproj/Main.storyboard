@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="-1450" y="851"/>
         </scene>
         <!--Videos-->
         <scene sceneID="foU-Ks-mmw">
@@ -145,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ny3-Cp-gR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1399" y="-322"/>
+            <point key="canvasLocation" x="1442" y="851"/>
         </scene>
         <!--Explore-->
         <scene sceneID="wg7-f3-ORb">
@@ -182,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="351"/>
+            <point key="canvasLocation" x="-2" y="851"/>
         </scene>
         <!--Profile-->
         <scene sceneID="HYS-LL-9cF">
@@ -198,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGb-yr-SRx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1" y="851"/>
+            <point key="canvasLocation" x="-730" y="851"/>
         </scene>
         <!--Activities-->
         <scene sceneID="Z2s-9N-Fei">
@@ -214,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mud-eE-OhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1398" y="350"/>
+            <point key="canvasLocation" x="751" y="851"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
