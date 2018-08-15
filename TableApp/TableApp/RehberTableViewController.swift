@@ -10,38 +10,19 @@ import UIKit
 
 class RehberTableViewController: UITableViewController {
 
-    let nameArray = ["Halil",
-                     "İbrahim",
-                     "Yusuf",
-                     "Emre",
-                     "Hüseyin",
-                     "Enes",
-                     "Sinan",
-                     "Yakup",
-                     "Adem",
-                     "Mustafa"]
     
-    let statusArray = [true,
-                     false,
-                     false,
-                     true,
-                     true,
-                     false,
-                     false,
-                     true,
-                     true,
-                     false]
-    
-    let imageArray = [#imageLiteral(resourceName: "man1"),
-                       #imageLiteral(resourceName: "man2"),
-                       #imageLiteral(resourceName: "man3"),
-                       #imageLiteral(resourceName: "man4"),
-                       #imageLiteral(resourceName: "man5"),
-                       #imageLiteral(resourceName: "man6"),
-                       #imageLiteral(resourceName: "man7"),
-                       #imageLiteral(resourceName: "man8"),
-                       #imageLiteral(resourceName: "man9"),
-                       #imageLiteral(resourceName: "man10")]
+    let rehberItems = [
+                    RehberItem(name:"Halil", status:true, profileImg:#imageLiteral(resourceName: "man1")),
+                    RehberItem(name:"İbrahim", status:false, profileImg:#imageLiteral(resourceName: "man2")),
+                    RehberItem(name:"Yusuf", status:false, profileImg:#imageLiteral(resourceName: "man3")),
+                    RehberItem(name:"Emre", status:true, profileImg:#imageLiteral(resourceName: "man4")),
+                    RehberItem(name:"Hüseyin", status:true, profileImg:#imageLiteral(resourceName: "man5")),
+                    RehberItem(name:"Enes", status:false, profileImg:#imageLiteral(resourceName: "man6")),
+                    RehberItem(name:"Sinan", status:false, profileImg:#imageLiteral(resourceName: "man7")),
+                    RehberItem(name:"Yakup", status:true, profileImg:#imageLiteral(resourceName: "man8")),
+                    RehberItem(name:"Adem", status:true, profileImg:#imageLiteral(resourceName: "man9")),
+                    RehberItem(name:"Mustafa", status:false, profileImg:#imageLiteral(resourceName: "man10")),
+            ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +42,7 @@ class RehberTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return nameArray.count
+        return rehberItems.count
     }
 
     
@@ -69,11 +50,12 @@ class RehberTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RehberCell", for: indexPath) as! RehberTableViewCell
 
         let rowNumber = indexPath.row
-        cell.nameText.text = nameArray[rowNumber]
+        let currentItem = rehberItems[rowNumber]
+        cell.nameText.text = currentItem.name
         
-        cell.imageView?.image = imageArray[rowNumber]
+        cell.imageView?.image = currentItem.profileImg
         
-        if statusArray[rowNumber] == true {
+        if currentItem.status == true {
             cell.statusLabel.textColor = UIColor.green
             cell.statusLabel.text = "Online"
         }else{

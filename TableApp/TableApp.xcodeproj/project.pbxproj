@@ -13,6 +13,7 @@
 		9F5B48662105EFE600CAF8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B48642105EFE600CAF8D7 /* LaunchScreen.storyboard */; };
 		9F5B486E2105F54E00CAF8D7 /* RehberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B486D2105F54E00CAF8D7 /* RehberTableViewController.swift */; };
 		9F5B48702105F7A300CAF8D7 /* RehberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B486F2105F7A300CAF8D7 /* RehberTableViewCell.swift */; };
+		F6AED9C721206537002FBDF3 /* RehberItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AED9C621206537002FBDF3 /* RehberItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F5B48672105EFE600CAF8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F5B486D2105F54E00CAF8D7 /* RehberTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberTableViewController.swift; sourceTree = "<group>"; };
 		9F5B486F2105F7A300CAF8D7 /* RehberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberTableViewCell.swift; sourceTree = "<group>"; };
+		F6AED9C621206537002FBDF3 /* RehberItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9F5B485F2105EFE500CAF8D7 /* Main.storyboard */,
 				9F5B486D2105F54E00CAF8D7 /* RehberTableViewController.swift */,
 				9F5B486F2105F7A300CAF8D7 /* RehberTableViewCell.swift */,
+				F6AED9C621206537002FBDF3 /* RehberItem.swift */,
 				9F5B48622105EFE600CAF8D7 /* Assets.xcassets */,
 				9F5B48642105EFE600CAF8D7 /* LaunchScreen.storyboard */,
 				9F5B48672105EFE600CAF8D7 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				9F5B485C2105EFE500CAF8D7 /* AppDelegate.swift in Sources */,
 				9F5B486E2105F54E00CAF8D7 /* RehberTableViewController.swift in Sources */,
+				F6AED9C721206537002FBDF3 /* RehberItem.swift in Sources */,
 				9F5B48702105F7A300CAF8D7 /* RehberTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
