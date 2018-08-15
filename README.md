@@ -55,6 +55,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [SpeechRecognition](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechRecognition)
 - [SpeechApp](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechApp)
 - [SiriKit](https://github.com/halilozel1903/iOSProjects/tree/master/MessageApp)
+- [Quick Action](https://github.com/halilozel1903/iOSProjects/tree/master/QuickActionApp)
 
 
 ## Yararlandığım Kaynaklar
