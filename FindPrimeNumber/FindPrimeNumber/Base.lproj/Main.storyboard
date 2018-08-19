@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindPrimeNumber" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is it Prime Number ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yps-Lq-YkH">
+                                <rect key="frame" x="57" y="76" width="260" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dZW-Zm-g52">
+                                <rect key="frame" x="57" y="136" width="260" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="C2j-1N-fz2"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qo-Fs-0ui">
+                                <rect key="frame" x="155" y="198" width="65" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FbQ-Gy-78A"/>
+                                </constraints>
+                                <state key="normal" title="Find">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="findNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hcj-qa-tF1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhD-Ef-ASx">
+                                <rect key="frame" x="57" y="268" width="260" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="pVh-Ka-Yhe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HhD-Ef-ASx" firstAttribute="top" secondItem="2Qo-Fs-0ui" secondAttribute="bottom" constant="40" id="AFd-m2-WAf"/>
+                            <constraint firstItem="Yps-Lq-YkH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="DYg-Ug-z71"/>
+                            <constraint firstItem="2Qo-Fs-0ui" firstAttribute="top" secondItem="dZW-Zm-g52" secondAttribute="bottom" constant="32" id="Hkk-kr-HFP"/>
+                            <constraint firstItem="2Qo-Fs-0ui" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="S3Z-ij-49M"/>
+                            <constraint firstItem="dZW-Zm-g52" firstAttribute="centerX" secondItem="2Qo-Fs-0ui" secondAttribute="centerX" id="Xlb-Y2-mFT"/>
+                            <constraint firstItem="dZW-Zm-g52" firstAttribute="trailing" secondItem="HhD-Ef-ASx" secondAttribute="trailing" id="ceR-9f-Vek"/>
+                            <constraint firstItem="dZW-Zm-g52" firstAttribute="top" secondItem="Yps-Lq-YkH" secondAttribute="bottom" constant="20" id="gw2-8r-2uA"/>
+                            <constraint firstItem="Yps-Lq-YkH" firstAttribute="leading" secondItem="dZW-Zm-g52" secondAttribute="leading" id="jdT-zO-MCx"/>
+                            <constraint firstItem="dZW-Zm-g52" firstAttribute="leading" secondItem="HhD-Ef-ASx" secondAttribute="leading" id="mCb-dD-0oe"/>
+                            <constraint firstItem="Yps-Lq-YkH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="obb-ky-2ZW"/>
+                            <constraint firstItem="Yps-Lq-YkH" firstAttribute="trailing" secondItem="dZW-Zm-g52" secondAttribute="trailing" id="xBb-rC-LeC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HhD-Ef-ASx" secondAttribute="bottom" constant="365" id="y8p-jh-EuU"/>
+                            <constraint firstItem="Yps-Lq-YkH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="zAs-AO-l3C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="dZW-Zm-g52" id="Psq-U9-NYi"/>
+                        <outlet property="resultLabel" destination="HhD-Ef-ASx" id="Aht-w6-WtR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
