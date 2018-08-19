@@ -57,6 +57,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 - [SiriKit](https://github.com/halilozel1903/iOSProjects/tree/master/MessageApp)
 - [Quick Action](https://github.com/halilozel1903/iOSProjects/tree/master/QuickActionApp)
 - [Custom Keyboard](https://github.com/halilozel1903/iOSProjects/tree/master/CustomKeyboardApp)
+- [Prime Number App](https://github.com/halilozel1903/iOSProjects/tree/master/FindPrimeNumber)
 
 
 ## Yararlandığım Kaynaklar
@@ -68,6 +69,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 4. https://gelecegiyazanlar.turkcell.com.tr/konu/ios
 5. https://developer.apple.com/
 6. https://www.udemy.com/ios-11-swift-4-ve-firebase-ile-uygulama-gelistirme
+7. https://www.udemy.com/complete-ios-11-developer-course
 
 
 # NOT
