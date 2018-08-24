@@ -8,7 +8,7 @@ Swift-4 ile ilgili en temel konuları bir önceki projede anlatmaya devam ediyor
 
 
 ## Projenin İçeriği
-Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir projedir. <br>
+Swift-4 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içeren bir projedir. <br>
 
 
 ## Uygulamalar 
@@ -73,4 +73,4 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı uygulamaları içeren bir p
 
 
 # NOT
-Projeler ve örnekler eklenmeye devam edecektir. <br>
+Örnek proje ve uygulamalar eklenmeye devam edecektir. <br>
