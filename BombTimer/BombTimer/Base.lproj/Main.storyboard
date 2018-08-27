@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BombTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GlY-l6-LFE">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="-10" id="enJ-cN-mtc">
+                                        <connections>
+                                            <action selector="minusTenBtn:" destination="BYZ-38-t0r" id="nJ2-ih-7tU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ATE-gX-bO3"/>
+                                    <barButtonItem title="Reset" id="mOM-9u-qfn">
+                                        <connections>
+                                            <action selector="resetBtn:" destination="BYZ-38-t0r" id="pjm-85-cZr"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="mU2-xN-8fc"/>
+                                    <barButtonItem title="+10" id="zXk-zU-dHT">
+                                        <connections>
+                                            <action selector="plusTenBtn:" destination="BYZ-38-t0r" id="UrA-rw-dsU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z5m-DV-JzV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Bomb Timer" id="hBy-UQ-c2H">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="pause" id="pIT-ls-0NB">
+                                            <connections>
+                                                <action selector="pauseBtn:" destination="BYZ-38-t0r" id="NhZ-lZ-kso"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="uya-db-OYa">
+                                            <connections>
+                                                <action selector="playBtn:" destination="BYZ-38-t0r" id="XRK-a3-0y7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2eQ-do-e7s">
+                                <rect key="frame" x="105" y="277" width="165" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="C3E-Nk-xxq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2eQ-do-e7s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="7yB-EQ-WIp"/>
+                            <constraint firstItem="z5m-DV-JzV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AHy-EQ-dmO"/>
+                            <constraint firstItem="GlY-l6-LFE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="B2R-8H-p0f"/>
+                            <constraint firstItem="z5m-DV-JzV" firstAttribute="centerX" secondItem="2eQ-do-e7s" secondAttribute="centerX" id="Cch-tm-EFP"/>
+                            <constraint firstItem="2eQ-do-e7s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FtF-pT-JGr"/>
+                            <constraint firstItem="z5m-DV-JzV" firstAttribute="trailing" secondItem="GlY-l6-LFE" secondAttribute="trailing" id="gMw-5c-Sph"/>
+                            <constraint firstAttribute="trailing" secondItem="z5m-DV-JzV" secondAttribute="trailing" id="r2d-aL-SKn"/>
+                            <constraint firstItem="z5m-DV-JzV" firstAttribute="leading" secondItem="GlY-l6-LFE" secondAttribute="leading" id="uxN-RV-4A0"/>
+                            <constraint firstItem="z5m-DV-JzV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wBN-qk-AmU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="timerTxt" destination="2eQ-do-e7s" id="y4i-mP-ILe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
