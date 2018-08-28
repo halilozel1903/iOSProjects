@@ -60,6 +60,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 - [Prime Number App](https://github.com/halilozel1903/iOSProjects/tree/master/FindPrimeNumber)
 - [Navigation Menu App](https://github.com/halilozel1903/iOSProjects/tree/master/NavigationMenuApp)
 - [Bomb Timer App](https://github.com/halilozel1903/iOSProjects/tree/master/BombTimer)
+- [Music App](https://github.com/halilozel1903/iOSProjects/tree/master/Xylophone-iOS11-master)
 
 
 ## Yararlandığım Kaynaklar
@@ -72,6 +73,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 5. https://developer.apple.com/
 6. https://www.udemy.com/ios-11-swift-4-ve-firebase-ile-uygulama-gelistirme
 7. https://www.udemy.com/complete-ios-11-developer-course
+8. https://www.udemy.com/ios-11-app-development-bootcamp/learn
 
 
 # NOT
