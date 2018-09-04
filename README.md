@@ -61,6 +61,7 @@ Swift-4 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 - [Navigation Menu App](https://github.com/halilozel1903/iOSProjects/tree/master/NavigationMenuApp)
 - [Bomb Timer App](https://github.com/halilozel1903/iOSProjects/tree/master/BombTimer)
 - [Music App](https://github.com/halilozel1903/iOSProjects/tree/master/Xylophone-iOS11-master)
+- [Language App](https://github.com/halilozel1903/iOSProjects/tree/master/LanguageApp)
 
 
 ## Yararlandığım Kaynaklar
