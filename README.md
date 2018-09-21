@@ -4,11 +4,11 @@
 
 ## Projenin Amacı
 
-Swift-4 ile ilgili en temel konuları bir önceki projede anlatmaya devam ediyorum. Öğrendiklerimizi pekiştirmek ve birbirinden farklı projeler geliştirmek için oluşturulmuş bir projedir. Arkadaşlar her türlü eleştiri ve desteğe açığım :smile:
+Swift-4.2 ile ilgili en temel konuları bir önceki projede anlatmaya devam ediyorum. Öğrendiklerimizi pekiştirmek ve birbirinden farklı projeler geliştirmek için oluşturulmuş bir projedir. Arkadaşlar her türlü eleştiri ve desteğe açığım :smile:
 
 
 ## Projenin İçeriği
-Swift-4 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içeren bir projedir. <br>
+Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içeren bir projedir. <br>
 
 
 ## Uygulamalar 
