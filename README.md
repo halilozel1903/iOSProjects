@@ -67,6 +67,12 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 - [Multiple View Controllers](https://github.com/halilozel1903/iOSProjects/tree/master/MultipleViewControllers)
 - [ControllingTheKeyboard](https://github.com/halilozel1903/iOSProjects/tree/master/ControllingTheKeyboard)
 
+<br>
+
+## Uygulama İçerikleri
+
+- [To Do List](https://github.com/halilozel1903/iOSProjects/tree/master/ToDoList) : To Do List uygulamasında TabView, TableView,Label,Text Field ve Button kullanılmıştır. Tab sayesinde sayfalar arası geçiş yapılabilmektedir. Kullanıcı 2.sayfada ekleme yapıp add butonuna tıklayınca UserDefaults içine kayıt edilip ilk ekranda onu TableView yardımıyla listelemektedir. Her eklenen veri için tablo güncellenmektedir. Listede istemediğimiz bir şey varsa sağdan sola hücreyi çekerek o bileşeni silebiliriz. Silinen elemanla birlikte table tekrardan güncellenir.
+
 
 ## Yararlandığım Kaynaklar
 
