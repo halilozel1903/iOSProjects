@@ -76,13 +76,14 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 <img src="toDoList1.png" width="200" /> <img src="toDoList6.png" width="200" /> <img src="toDoList2.png" width="200" /> <br>
 <img src="toDoList3.png" width="200" />  <img src="toDoList4.png" width="200" /> <img src="toDoList5.png" width="200" /> 
 
-<br>
+<br> <br>
 
 - [Currency App](https://github.com/halilozel1903/iOSProjects/tree/master/JsonApiApp) : Currency uygulaması anlık olarak para birimleri ile bilgileri alıp kullanıcıya gösterilen basic düzeyde bir uygulamadır. Kullanıcı para birim ile ilgili kodu,alış-satış değerlerini ve ismini görebilmektedir. Uygulamada JSON veri kullanıldığı için [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) kütüphanesi kullanılmaktadır. Ekstra HTTP istekleri ile ilgili işlemleri yürütebilmek için [Alamofire](https://github.com/Alamofire/Alamofire) kütüphanesi kullanılmaktadır. API olarak [Döviz API](https://www.doviz.com/api/v1/currencies/all/latest) kullanılmaktadır.
 
+<img src="Currency2.png" width="200" /> <img src="Currency3.png" width="200" /> <br>
 
 
-
+<br> <br>
 
 ## Yararlandığım Kaynaklar
 
