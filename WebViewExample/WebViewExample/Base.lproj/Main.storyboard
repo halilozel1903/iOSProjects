@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gj1-FE-gBA">
+                                <rect key="frame" x="0.0" y="61" width="375" height="586"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drQ-s7-Ghc">
+                                <rect key="frame" x="22" y="23" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GVe-a4-b7c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhp-jh-hdl">
+                                <rect key="frame" x="308" y="23" width="56" height="30"/>
+                                <state key="normal" title="Forward"/>
+                                <connections>
+                                    <action selector="forwardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdG-kx-oDC"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="frU-aN-77c">
+                                <rect key="frame" x="86" y="23" width="205" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="9it-eO-ATu"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gj1-FE-gBA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6pJ-21-oRo"/>
+                            <constraint firstItem="gj1-FE-gBA" firstAttribute="top" secondItem="zhp-jh-hdl" secondAttribute="bottom" constant="8" id="8wg-E8-CZI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gj1-FE-gBA" secondAttribute="bottom" constant="20" id="BJb-sN-YaT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zhp-jh-hdl" secondAttribute="trailing" constant="11" id="C7E-yy-Pxv"/>
+                            <constraint firstItem="gj1-FE-gBA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="M9k-f9-GQM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="frU-aN-77c" secondAttribute="trailing" constant="84" id="OLm-vz-5H0"/>
+                            <constraint firstItem="zhp-jh-hdl" firstAttribute="leading" secondItem="drQ-s7-Ghc" secondAttribute="trailing" constant="252" id="Uph-e0-515"/>
+                            <constraint firstItem="frU-aN-77c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="YLr-u9-nnA"/>
+                            <constraint firstItem="zhp-jh-hdl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="3" id="abI-48-uxF"/>
+                            <constraint firstItem="drQ-s7-Ghc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="fSA-sd-GGp"/>
+                            <constraint firstItem="gj1-FE-gBA" firstAttribute="top" secondItem="drQ-s7-Ghc" secondAttribute="bottom" constant="8" id="jk3-wB-vVh"/>
+                            <constraint firstItem="gj1-FE-gBA" firstAttribute="top" secondItem="drQ-s7-Ghc" secondAttribute="bottom" constant="8" id="pKD-jB-Lmk"/>
+                            <constraint firstItem="drQ-s7-Ghc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="3" id="qF1-cL-Yb2"/>
+                            <constraint firstItem="zhp-jh-hdl" firstAttribute="leading" secondItem="frU-aN-77c" secondAttribute="trailing" constant="17" id="sZT-Ls-Mqn"/>
+                            <constraint firstItem="frU-aN-77c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="3" id="tZ1-HK-Ulj"/>
+                            <constraint firstItem="zhp-jh-hdl" firstAttribute="leading" secondItem="drQ-s7-Ghc" secondAttribute="trailing" constant="252" id="tbp-Z7-Nik"/>
+                            <constraint firstItem="frU-aN-77c" firstAttribute="leading" secondItem="drQ-s7-Ghc" secondAttribute="trailing" constant="30" id="xcl-Pm-8MI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="drQ-s7-Ghc" id="2d2-uu-Yrc"/>
+                        <outlet property="forwardButton" destination="zhp-jh-hdl" id="xFU-7E-yfg"/>
+                        <outlet property="textField" destination="frU-aN-77c" id="myJ-hM-Tz7"/>
+                        <outlet property="webView" destination="gj1-FE-gBA" id="GlJ-1v-T7g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
