@@ -91,6 +91,11 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 
 <br> <br>
 
+- [Web Kit App](https://github.com/halilozel1903/iOSProjects/tree/master/WebViewExample) : Web Kit kullanarak url bilgisi girildiği takdirde http ya da https uzantılı olmaksızın istenilen siteye girilmektedir. Site içerisinde ileriye veya geriye git işlemlerini 2 adet buton yardımıyla yapabilirsiniz. Gittiğiniz url adresi üstte bulunan TextField alanında güncellenmektedir. Http ile giriş yapabilmek için Plist kısmında ufak bir ayarlama yapmalısınız.Bunların hepsini projede ayrıntılı bir şekilde bulabilirsiniz.
+
+<img src="https://github.com/halilozel1903/iOSProjects/blob/master/web1.png" width="200" /> <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web2.png" width="200" /> <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web3.png" width="200" />
+
+<br> <br>
 
 ## Yararlandığım Kaynaklar
 
