@@ -87,6 +87,11 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 
 - [Downloading Web Content](https://github.com/halilozel1903/iOSProjects/tree/master/DownloadingWebContent) : Downloading Web Content uygulaması Webten bir adrese girip sayfanın kaynak kodlarını çekme işlemini yapmaktadır. Uygulamada http ya da https kısmına bakmaksızın direkt tanımlanan adrese gidilip, adresin kaynak dosyaları Consol ekranında görüntülenir.
 
+<img src="https://github.com/halilozel1903/iOSProjects/blob/master/webContent.png" width="500" />
+
+<br> <br>
+
+
 ## Yararlandığım Kaynaklar
 
 
