@@ -98,7 +98,7 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 <br> <br>
 
 
--[Auto Layout](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout dizaynını görsel ekrandan farklı olarak kod kısmında gerekli kodlar yazarak oluşturulan bir projedir. Örnekte bir adet resim ve bir adet label eklendi. Eklenen label'a birçok özellik eklendi. Birbirlerine olan konumları ve özellikleri tanımlandı. Aşağıdaki resmi inceleyebilirsiniz : 
+- [Auto Layout](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout dizaynını görsel ekrandan farklı olarak kod kısmında gerekli kodlar yazarak oluşturulan bir projedir. Örnekte bir adet resim ve bir adet label eklendi. Eklenen label'a birçok özellik eklendi. Birbirlerine olan konumları ve özellikleri tanımlandı. Aşağıdaki resmi inceleyebilirsiniz : 
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/autoLayout.png" width="200" />
 
@@ -116,6 +116,7 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 6. https://www.udemy.com/ios-11-swift-4-ve-firebase-ile-uygulama-gelistirme
 7. https://www.udemy.com/complete-ios-11-developer-course
 8. https://www.udemy.com/ios-11-app-development-bootcamp/learn
+9. https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJTC7F
 
 
 # NOT
