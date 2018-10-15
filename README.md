@@ -97,6 +97,14 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 
 <br> <br>
 
+
+-[Auto Layout](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout dizaynını görsel ekrandan farklı olarak kod kısmında gerekli kodlar yazarak oluşturulan bir projedir. Örnekte bir adet resim ve bir adet label eklendi. Eklenen label'a birçok özellik eklendi. Birbirlerine olan konumları ve özellikleri tanımlandı. Aşağıdaki resmi inceleyebilirsiniz : 
+
+<img src="https://github.com/halilozel1903/iOSProjects/blob/master/autoLayout.png" width="200" />
+
+<br> <br>
+
+
 ## Yararlandığım Kaynaklar
 
 
