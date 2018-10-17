@@ -1,10 +1,10 @@
-# iOS Projects (iOS Projeleri)
+# iOS Projects
 
 ![Screenshot](iOSApp.jpg)
 
 ## Projenin Amacı
 
-Swift-4.2 ile ilgili en temel konuları bir önceki projede anlatmaya devam ediyorum. Öğrendiklerimizi pekiştirmek ve birbirinden farklı projeler geliştirmek için oluşturulmuş bir projedir. Arkadaşlar her türlü eleştiri ve desteğe açığım :smile:
+Swift-4.2 ile ilgili en temel konuları bir önceki projede anlatmaya devam ediyorum. Öğrendiklerimizi pekiştirmek ve birbirinden farklı projeler geliştirmek için oluşturulmuş bir projedir.
 
 
 ## Projenin İçeriği
