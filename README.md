@@ -105,9 +105,9 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 <br> <br>
 
 
-- [Auto Layout Example](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout yapısı iOS programlamada en önemli yapılardan birisidir. 4 özelliği doğru bir şekilde kullanarak uygulamalarınızda harika tasarımlar yapabilirsiniz. Bu özellikler : x,y eksenleri ve width - height özellikleridir. Aşağıdaki resmi inceleyebilirsiniz : 
+- [Auto Layout Example](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout yapısı iOS programlamada en önemli yapılardan birisidir. 4 özelliği doğru bir şekilde kullanarak uygulamalarınızda harika tasarımlar yapabilirsiniz. Bu özellikler : x,y eksenleri ve width - height özellikleridir. Örnekte resim,label ve buton yapıları kullanılmıştır. Aşağıdaki resmi inceleyebilirsiniz : 
 
-<img src="https://github.com/halilozel1903/iOSProjects/blob/master/auto_1.png" width="750" />
+<img src="https://github.com/halilozel1903/iOSProjects/blob/master/auto_1.png" width="900" />
 
 <br> <br>
 
