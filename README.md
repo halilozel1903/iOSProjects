@@ -42,8 +42,8 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 - [FindMyAge](https://github.com/halilozel1903/iOSProjects/tree/master/FindMyAge)
 - [Calculator](https://github.com/halilozel1903/iOSProjects/tree/master/Calculator)
 - [Animations](https://github.com/halilozel1903/iOSProjects/tree/master/Animations)
-- [SwipeAndShakeApp](https://github.com/halilozel1903/iOSProjects/tree/master/SwipeAndShakeApp)
-- [SwipeGestureRecognizer](https://github.com/halilozel1903/iOSProjects/tree/master/SwipeGestureRecognizer)
+- [Swipe And Shake App](https://github.com/halilozel1903/iOSProjects/tree/master/SwipeAndShakeApp)
+- [Swipe Gesture Recognizer](https://github.com/halilozel1903/iOSProjects/tree/master/SwipeGestureRecognizer)
 - [Alert View](https://github.com/halilozel1903/iOSProjects/tree/master/AlertViewApp)
 - [Picker View](https://github.com/halilozel1903/iOSProjects/tree/master/PickerViewApp)
 - [Date Picker](https://github.com/halilozel1903/iOSProjects/tree/master/DatePickerViewApp)
@@ -51,9 +51,9 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 - [MVC App](https://github.com/halilozel1903/iOSProjects/tree/master/MVCApp)
 - [MVVM App](https://github.com/halilozel1903/iOSProjects/tree/master/MVVMApp)
 - [Cocoa Pods App](https://github.com/halilozel1903/iOSProjects/tree/master/CocoaPodsApp)
-- [AudioSpeechRecognition](https://github.com/halilozel1903/iOSProjects/tree/master/AudioSpeechRecognition)
-- [SpeechRecognition](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechRecognition)
-- [SpeechApp](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechApp)
+- [Audio Speech Recognition](https://github.com/halilozel1903/iOSProjects/tree/master/AudioSpeechRecognition)
+- [Speech Recognition](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechRecognition)
+- [Speech App](https://github.com/halilozel1903/iOSProjects/tree/master/SpeechApp)
 - [SiriKit](https://github.com/halilozel1903/iOSProjects/tree/master/MessageApp)
 - [Quick Action](https://github.com/halilozel1903/iOSProjects/tree/master/QuickActionApp)
 - [Custom Keyboard](https://github.com/halilozel1903/iOSProjects/tree/master/CustomKeyboardApp)
@@ -65,7 +65,7 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 - [Times Table App](https://github.com/halilozel1903/iOSProjects/tree/master/TimesTableApp)
 - [UserDefaults App](https://github.com/halilozel1903/iOSProjects/tree/master/UserDefaultsApp)
 - [Multiple View Controllers](https://github.com/halilozel1903/iOSProjects/tree/master/MultipleViewControllers)
-- [ControllingTheKeyboard](https://github.com/halilozel1903/iOSProjects/tree/master/ControllingTheKeyboard)
+- [Controlling The Keyboard](https://github.com/halilozel1903/iOSProjects/tree/master/ControllingTheKeyboard)
 
 <br>
 
