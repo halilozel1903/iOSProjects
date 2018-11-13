@@ -113,19 +113,5 @@ Swift-4.2 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları i�
 <br> <br>
 
 
-## Yararlandığım Kaynaklar
-
-
-1. https://developer.apple.com/
-2. https://www.udemy.com/ios-11-swift-4-baslangictan-ileri-seviyeye-mobil-uygulama
-3. https://www.raywenderlich.com/category/ios
-4. https://gelecegiyazanlar.turkcell.com.tr/konu/ios
-5. https://www.udemy.com/swift-4-ile-baslangictan-ileri-seviyeye-mobil-uygulama-egitimi
-6. https://www.udemy.com/ios-11-swift-4-ve-firebase-ile-uygulama-gelistirme
-7. https://www.udemy.com/complete-ios-11-developer-course
-8. https://www.udemy.com/ios-11-app-development-bootcamp/learn
-9. https://www.youtube.com/watch?v=9RydRg0ZKaI&list=PL0dzCUj1L5JHdeOlzJtp5zlsdrliJTC7F
-
-
 # NOT
 Örnek proje ve uygulamalar eklenmeye devam edecektir. <br>
