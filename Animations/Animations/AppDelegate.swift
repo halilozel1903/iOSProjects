@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Animations
 //
-//  Created by Halil Özel on 30.07.2018.
+//  Created by Halil Özel on 24.11.2018.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
