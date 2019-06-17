@@ -67,10 +67,17 @@ Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 - [Multiple View Controllers](https://github.com/halilozel1903/iOSProjects/tree/master/MultipleViewControllers)
 - [Controlling The Keyboard](https://github.com/halilozel1903/iOSProjects/tree/master/ControllingTheKeyboard)
 - [Auto Layout Programmatic](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayoutProgrammatic)
+- [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication)
 
 <br>
 
 ## Uygulama İçerikleri
+
+- [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : Collection View kullanımıyla alakalı bir uygulamadır. Uygulamada İstanbul'un meşhur yerlerinin resimleri var. Resimlere tıklanınca resmin büyük hali ve o yerin ismi detay kısmında gözükmektedir.
+
+
+
+<br> <br>
 
 - [To Do List](https://github.com/halilozel1903/iOSProjects/tree/master/ToDoList) : To Do List uygulamasında TabView, TableView,Label,Text Field ve Button kullanılmıştır. Tab sayesinde sayfalar arası geçiş yapılabilmektedir. Kullanıcı 2.sayfada ekleme yapıp add butonuna tıklayınca UserDefaults içine kayıt edilip ilk ekranda onu TableView yardımıyla listelemektedir. Her eklenen veri için tablo güncellenmektedir. Listede istemediğimiz bir şey varsa sağdan sola hücreyi çekerek o bileşeni silebiliriz. Silinen elemanla birlikte table tekrardan güncellenir.
 
