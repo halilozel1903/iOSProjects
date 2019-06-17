@@ -73,9 +73,12 @@ Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 
 ## Uygulama İçerikleri
 
-- [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : Collection View kullanımıyla alakalı bir uygulamadır. Uygulamada İstanbul'un meşhur yerlerinin resimleri var. Resimlere tıklanınca resmin büyük hali ve o yerin ismi detay kısmında gözükmektedir.
+- [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : Collection View kullanımıyla alakalı bir uygulamadır. Uygulamada İstanbul'un meşhur yerlerinin resimleri var. Resimlere tıklanınca resmin büyük hali ve o yerin ismi detay kısmında gözükmektedir. iPhone XS Max, iPhone XR ve iPhone 8 cihazlarında uygulama denendi.
 
+<img src="rsm1.png" /> <br>
 
+<img src="rsm2.png" width="250" /> <img src="rsm3.png" width="250" /> <img src="rsm4.png" width="250" /> <br>
+<img src="rsm5.png" width="300" /> <img src="rsm6.png" width="300" /> <br>
 
 <br> <br>
 
