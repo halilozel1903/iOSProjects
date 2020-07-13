@@ -2,16 +2,16 @@
 
 ![Screenshot](iOSApp.jpg)
 
-## Projenin Amacı
+## The goal of the project
 
-Swift-5 ile ilgili en temel konuları bir önceki projede anlatmaya devam ediyorum. Öğrendiklerimizi pekiştirmek ve birbirinden farklı projeler geliştirmek için oluşturulmuş bir projedir.
+I continue to explain the basic issues about Swift-5 in the previous project. It is a project created to reinforce what we learned and to develop different projects.
 
 
-## Projenin İçeriği
+## Content of the Project
 Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içeren bir projedir. <br>
 
 
-## Uygulamalar 
+## Apps 
 
 - [Images](https://github.com/halilozel1903/iOSProjects/tree/master/Images)
 - [Segues](https://github.com/halilozel1903/iOSProjects/tree/master/Segues)
@@ -73,7 +73,7 @@ Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 
 ## Uygulama İçerikleri
 
-- [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : Collection View kullanımıyla alakalı bir uygulamadır. Uygulamada İstanbul'un meşhur yerlerinin resimleri var. Resimlere tıklanınca resmin büyük hali ve o yerin ismi detay kısmında gözükmektedir. iPhone XS Max, iPhone XR ve iPhone 8 cihazlarında uygulama denendi.
+- [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : It is an application related to the use of Collection View. In the application, there are pictures of the famous places of Istanbul. When the pictures are clicked, the larger version of the picture and the name of that place appear in the detail section. The application was tried on iPhone XS Max, iPhone XR and iPhone 8 devices.
 
 <img src="rsm1.png" /> <br>
 
@@ -82,46 +82,71 @@ Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 
 <br> <br>
 
-- [To Do List](https://github.com/halilozel1903/iOSProjects/tree/master/ToDoList) : To Do List uygulamasında TabView, TableView,Label,Text Field ve Button kullanılmıştır. Tab sayesinde sayfalar arası geçiş yapılabilmektedir. Kullanıcı 2.sayfada ekleme yapıp add butonuna tıklayınca UserDefaults içine kayıt edilip ilk ekranda onu TableView yardımıyla listelemektedir. Her eklenen veri için tablo güncellenmektedir. Listede istemediğimiz bir şey varsa sağdan sola hücreyi çekerek o bileşeni silebiliriz. Silinen elemanla birlikte table tekrardan güncellenir.
+- [To Do List](https://github.com/halilozel1903/iOSProjects/tree/master/ToDoList) : TabView, TableView, Label, Text Field and Button are used in To Do List application. Thanks to the tab, you can switch between pages. When the user adds to the 2nd page and clicks the add button, he is registered in UserDefaults and lists it with the help of TableView on the first screen. The table is updated for each added data. If there is something we do not want in the list, we can delete that component by pulling the cell from right to left. The table is updated again with the deleted element.
 
 <img src="toDoList1.png" width="200" /> <img src="toDoList6.png" width="200" /> <img src="toDoList2.png" width="200" /> <br>
 <img src="toDoList3.png" width="200" />  <img src="toDoList4.png" width="200" /> <img src="toDoList5.png" width="200" /> 
 
 <br> <br>
 
-- [Currency App](https://github.com/halilozel1903/iOSProjects/tree/master/JsonApiApp) : Currency uygulaması anlık olarak para birimleri ile bilgileri alıp kullanıcıya gösterilen basic düzeyde bir uygulamadır. Kullanıcı para birim ile ilgili kodu,alış-satış değerlerini ve ismini görebilmektedir. Uygulamada JSON veri kullanıldığı için [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) kütüphanesi kullanılmaktadır. Ekstra HTTP istekleri ile ilgili işlemleri yürütebilmek için [Alamofire](https://github.com/Alamofire/Alamofire) kütüphanesi kullanılmaktadır. API olarak [Döviz API](https://www.doviz.com/api/v1/currencies/all/latest) kullanılmaktadır.
+- [Currency App](https://github.com/halilozel1903/iOSProjects/tree/master/JsonApiApp) : Currency application is a basic application that instantly takes information with currencies and is displayed to the user. The user can see the code, buy-sell values and name related to the currency. Since the application uses JSON data, [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) library is used. To be able to execute transactions related to extra HTTP requests [Alamofire](https://github.com/Alamofire/Alamofire) library is used. As an API [Döviz API](https://www.doviz.com/api/v1/currencies/all/latest) used.
 
 <img src="Currency2.png" width="200" /> <img src="Currency3.png" width="200" /> <br>
 
 
 <br> <br>
 
-- [Downloading Web Content](https://github.com/halilozel1903/iOSProjects/tree/master/DownloadingWebContent) : Downloading Web Content uygulaması Webten bir adrese girip sayfanın kaynak kodlarını çekme işlemini yapmaktadır. Uygulamada http ya da https kısmına bakmaksızın direkt tanımlanan adrese gidilip, adresin kaynak dosyaları Consol ekranında görüntülenir.
+- [Downloading Web Content](https://github.com/halilozel1903/iOSProjects/tree/master/DownloadingWebContent) :Downloading Web Content application enters an address from the web and takes the source code of the page. Regardless of the http or https section in the application, the address that is directly defined is accessed and the source files of the address are displayed on the Consol screen.
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/webContent.png" width="500" />
 
 <br> <br>
 
-- [Web Kit App](https://github.com/halilozel1903/iOSProjects/tree/master/WebViewExample) : Web Kit kullanarak url bilgisi girildiği takdirde http ya da https uzantılı olmaksızın istenilen siteye girilmektedir. Site içerisinde ileriye veya geriye git işlemlerini 2 adet buton yardımıyla yapabilirsiniz. Gittiğiniz url adresi üstte bulunan TextField alanında güncellenmektedir. Http ile giriş yapabilmek için Plist kısmında ufak bir ayarlama yapmalısınız.Bunların hepsini projede ayrıntılı bir şekilde bulabilirsiniz.
+- [Web Kit App](https://github.com/halilozel1903/iOSProjects/tree/master/WebViewExample) :If url information is entered using Web Kit, it is entered to the desired site without http or https extension. You can go forward or back in the site with the help of 2 buttons. The url address you go to is updated in the TextField field at the top. In order to log in with http, you should make a small adjustment in Plist section. You can find all of these in detail in the project.
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web1.png" width="200" /> <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web2.png" width="200" /> <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web3.png" width="200" />
 
 <br> <br>
 
 
-- [Auto Layout](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout dizaynını görsel ekrandan farklı olarak kod kısmında gerekli kodlar yazarak oluşturulan bir projedir. Örnekte bir adet resim ve bir adet label eklendi. Eklenen label'a birçok özellik eklendi. Birbirlerine olan konumları ve özellikleri tanımlandı. Aşağıdaki resmi inceleyebilirsiniz : 
+- [Auto Layout](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Unlike the visual screen, the Auto Layout design is a project created by writing the necessary codes in the code section. In the example, a picture and a label were added. Many features have been added to the added label. Their locations and properties were defined. You can review the picture below:
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/autoLayout.png" width="200" />
 
 <br> <br>
 
 
-- [Auto Layout Example](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Auto Layout yapısı iOS programlamada en önemli yapılardan birisidir. 4 özelliği doğru bir şekilde kullanarak uygulamalarınızda harika tasarımlar yapabilirsiniz. Bu özellikler : x,y eksenleri ve width - height özellikleridir. Örnekte resim,label ve buton yapıları kullanılmıştır. Aşağıdaki resmi inceleyebilirsiniz : 
+- [Auto Layout Example](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : The Auto Layout structure is one of the most important structures in iOS programming. You can make great designs in your applications by using 4 features correctly. These properties are: x, y axes and width - height properties. In the example, picture, label and button structures are used. You can review the picture below:
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/auto_1.png" width="900" />
 
 <br> <br>
 
 
-# NOT
-Örnek proje ve uygulamalar eklenmeye devam edecektir. <br>
+# NOTE
+Sample projects and applications will continue to be added.<br>
+
+## License
+```
+MIT License
+
+Copyright (c) 2020 Halil Özel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
