@@ -71,7 +71,7 @@ Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içe
 
 <br>
 
-## Uygulama İçerikleri
+## Application Contents
 
 - [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : It is an application related to the use of Collection View. In the application, there are pictures of the famous places of Istanbul. When the pictures are clicked, the larger version of the picture and the name of that place appear in the detail section. The application was tried on iPhone XS Max, iPhone XR and iPhone 8 devices.
 
