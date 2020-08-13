@@ -8,7 +8,7 @@ I continue to explain the basic issues about Swift-5 in the previous project. It
 
 
 ## Content of the Project
-Swift-5 ile geliştirilmiş olan birbirinden farklı seviyede uygulamaları içeren bir projedir. <br>
+It is a project that includes applications at different levels developed with Swift-5. <br>
 
 
 ## Apps 
