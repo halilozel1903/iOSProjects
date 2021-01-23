@@ -122,15 +122,11 @@ It is a project that includes applications at different levels developed with Sw
 
 <br> <br>
 
-
-# NOTE
-Sample projects and applications will continue to be added.<br>
-
 ## License
 ```
 MIT License
 
-Copyright (c) 2020 Halil Özel
+Copyright (c) 2021 Halil Özel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
