@@ -1,17 +1,17 @@
-# iOS Projects
+# iOS  Projects 💻
 
 ![Screenshot](iOSApp.jpg)
 
-## The goal of the project
+## The goal of the project ⁉️
 
 I continue to explain the basic issues about Swift-5 in the previous project. It is a project created to reinforce what we learned and to develop different projects.
 
 
-## Content of the Project
+## Content of the Project 🎁
 It is a project that includes applications at different levels developed with Swift-5. <br>
 
 
-## Apps 
+## Apps 📱
 
 - [Images](https://github.com/halilozel1903/iOSProjects/tree/master/Images)
 - [Segues](https://github.com/halilozel1903/iOSProjects/tree/master/Segues)
@@ -71,7 +71,7 @@ It is a project that includes applications at different levels developed with Sw
 
 <br>
 
-## Application Contents
+## Application Contents 🖼
 
 - [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication) : It is an application related to the use of Collection View. In the application, there are pictures of the famous places of Istanbul. When the pictures are clicked, the larger version of the picture and the name of that place appear in the detail section. The application was tried on iPhone XS Max, iPhone XR and iPhone 8 devices.
 
@@ -122,11 +122,11 @@ It is a project that includes applications at different levels developed with Sw
 
 <br> <br>
 
-## License
+## License ℹ️
 ```
 MIT License
 
-Copyright (c) 2021 Halil Özel
+Copyright (c) 2021 Halil OZEL
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
