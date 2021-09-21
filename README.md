@@ -4,11 +4,11 @@
 
 ## The goal of the project ⁉️
 
-I continue to explain the basic issues about Swift-5 in the previous project. It is a project created to reinforce what we learned and to develop different projects.
+I continue to explain the basic issues about Swift 5.5 in the previous project. It is a project created to reinforce what we learned and to develop different projects.
 
 
 ## Content of the Project 🎁
-It is a project that includes applications at different levels developed with Swift-5. <br>
+It is a project that includes applications at different levels developed with Swift 5.5 <br>
 
 
 ## Apps 📱
