@@ -11,7 +11,7 @@ I continue to explain the basic issues about Swift 5.5 in the previous project. 
 It is a project that includes applications at different levels developed with Swift 5.5 <br>
 
 
-## Apps 📱
+## Apps 📱 💻 📺 ⌚️
 
 - [Images](https://github.com/halilozel1903/iOSProjects/tree/master/Images)
 - [Segues](https://github.com/halilozel1903/iOSProjects/tree/master/Segues)
@@ -69,7 +69,6 @@ It is a project that includes applications at different levels developed with Sw
 - [Auto Layout Programmatic](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayoutProgrammatic)
 - [CollectionViewApplication](https://github.com/halilozel1903/iOSProjects/tree/master/CollectionViewApplication)
 
-<br>
 
 ## Application Contents 🖼
 
@@ -80,47 +79,37 @@ It is a project that includes applications at different levels developed with Sw
 <img src="rsm2.png" width="250" /> <img src="rsm3.png" width="250" /> <img src="rsm4.png" width="250" /> <br>
 <img src="rsm5.png" width="300" /> <img src="rsm6.png" width="300" /> <br>
 
-<br> <br>
 
 - [To Do List](https://github.com/halilozel1903/iOSProjects/tree/master/ToDoList) : TabView, TableView, Label, Text Field and Button are used in To Do List application. Thanks to the tab, you can switch between pages. When the user adds to the 2nd page and clicks the add button, he is registered in UserDefaults and lists it with the help of TableView on the first screen. The table is updated for each added data. If there is something we do not want in the list, we can delete that component by pulling the cell from right to left. The table is updated again with the deleted element.
 
 <img src="toDoList1.png" width="200" /> <img src="toDoList6.png" width="200" /> <img src="toDoList2.png" width="200" /> <br>
 <img src="toDoList3.png" width="200" />  <img src="toDoList4.png" width="200" /> <img src="toDoList5.png" width="200" /> 
 
-<br> <br>
 
 - [Currency App](https://github.com/halilozel1903/iOSProjects/tree/master/JsonApiApp) : Currency application is a basic application that instantly takes information with currencies and is displayed to the user. The user can see the code, buy-sell values and name related to the currency. Since the application uses JSON data, [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) library is used. To be able to execute transactions related to extra HTTP requests [Alamofire](https://github.com/Alamofire/Alamofire) library is used. As an API [Döviz API](https://www.doviz.com/api/v1/currencies/all/latest) used.
 
 <img src="Currency2.png" width="200" /> <img src="Currency3.png" width="200" /> <br>
 
 
-<br> <br>
-
 - [Downloading Web Content](https://github.com/halilozel1903/iOSProjects/tree/master/DownloadingWebContent) :Downloading Web Content application enters an address from the web and takes the source code of the page. Regardless of the http or https section in the application, the address that is directly defined is accessed and the source files of the address are displayed on the Consol screen.
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/webContent.png" width="500" />
 
-<br> <br>
 
 - [Web Kit App](https://github.com/halilozel1903/iOSProjects/tree/master/WebViewExample) :If url information is entered using Web Kit, it is entered to the desired site without http or https extension. You can go forward or back in the site with the help of 2 buttons. The url address you go to is updated in the TextField field at the top. In order to log in with http, you should make a small adjustment in Plist section. You can find all of these in detail in the project.
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web1.png" width="200" /> <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web2.png" width="200" /> <img src="https://github.com/halilozel1903/iOSProjects/blob/master/web3.png" width="200" />
-
-<br> <br>
 
 
 - [Auto Layout](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : Unlike the visual screen, the Auto Layout design is a project created by writing the necessary codes in the code section. In the example, a picture and a label were added. Many features have been added to the added label. Their locations and properties were defined. You can review the picture below:
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/autoLayout.png" width="200" />
 
-<br> <br>
-
 
 - [Auto Layout Example](https://github.com/halilozel1903/iOSProjects/tree/master/AutoLayout) : The Auto Layout structure is one of the most important structures in iOS programming. You can make great designs in your applications by using 4 features correctly. These properties are: x, y axes and width - height properties. In the example, picture, label and button structures are used. You can review the picture below:
 
 <img src="https://github.com/halilozel1903/iOSProjects/blob/master/auto_1.png" width="900" />
 
-<br>
 
 ## License ℹ️
 ```
