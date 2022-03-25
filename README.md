@@ -2,13 +2,15 @@
 
 ![Screenshot](iOSApp.jpg)
 
-## The goal of the project ⁉️
+Swift is a powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.
+
+## The goal of the Project ⁉️
 
 I continue to explain the basic issues about Swift 5.5 in the previous project. It is a project created to reinforce what we learned and to develop different projects.
 
 
 ## Content of the Project 🎁
-It is a project that includes applications at different levels developed with Swift 5.5 <br>
+It is a project that includes applications at different levels developed with Swift 5.5 
 
 
 ## Apps 📱 💻 📺 ⌚️
