@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  AlertProject
 //
-//  Created by Halil Özel on 25.06.2018.
+//  Refactored by Halil Özel on 11.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController,UIAlertViewDelegate {
-
+    
     
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
@@ -17,9 +17,8 @@ class ViewController: UIViewController,UIAlertViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     
     
     @IBAction func signClicked(_ sender: Any) {
@@ -61,7 +60,7 @@ class ViewController: UIViewController,UIAlertViewDelegate {
         
     }
     
-   
+    
     @IBAction func btnClicked(_ sender: Any) {
         
         // alert dialog ile ilgili ayarlar yapıldı.
@@ -73,7 +72,6 @@ class ViewController: UIViewController,UIAlertViewDelegate {
         
         // yapıları görüntülemede kullanılır.
         self.present(alert, animated: true, completion: nil) // completion : işlem sonrası birşeyler yapılacak mı ?
-        
         
     }
     
@@ -109,9 +107,5 @@ class ViewController: UIViewController,UIAlertViewDelegate {
         }
     }
     
-    
-    
-    
-
 }
 
