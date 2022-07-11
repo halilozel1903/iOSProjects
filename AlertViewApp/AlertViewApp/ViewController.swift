@@ -2,20 +2,19 @@
 //  ViewController.swift
 //  AlertViewApp
 //
-//  Created by Halil Özel on 3.08.2018.
+//  Refactored by Halil Özel on 12.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-   // alertview ile ilgili işlemler yapılıyor.
+    
+    // alertview ile ilgili işlemler yapılıyor.
     @IBAction func alertViewShow(_ sender: Any) {
         
         // alert nesnesi tanımlandı.
@@ -43,9 +42,6 @@ class ViewController: UIViewController {
         // alert view gösterme işlemi
         self.present(alert,animated: true,completion: nil)
         
-        
     }
-    
-
 }
 
