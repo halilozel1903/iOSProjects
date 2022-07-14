@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  BombTimer
 //
-//  Created by Halil Özel on 27.08.2018.
+//  Updated by Halil Özel on 14.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var timer = Timer() // timer nesnesi
     
     var time = 10 // time değeri
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     }
     
     
-   // değer azaltma işlemleri
+    // değer azaltma işlemleri
     @IBAction func minusTenBtn(_ sender: Any) {
         
         if time > 10{
@@ -66,9 +66,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    
-
-
 }
 
