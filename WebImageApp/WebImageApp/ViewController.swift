@@ -2,20 +2,19 @@
 //  ViewController.swift
 //  WebImageApp
 //
-//  Created by Halil Özel on 4.08.2018.
+//  Refactored by Halil Özel on 14.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
     
     @IBOutlet weak var webImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         if let url = URL(string: "https://i.pinimg.com/474x/a4/86/4d/a4864dcae5ab30a382e30e30f23a9440.jpg"){
             
             let request = URLRequest(url: url)
@@ -33,16 +32,9 @@ class ViewController: UIViewController {
                         })
                     }
                 }
-                
-            
             }
             task.resume()
         }
-        
     }
-
-   
-
-
 }
 
