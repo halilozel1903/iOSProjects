@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  AudioSpeechRecognition
 //
-//  Created by Halil Özel on 10.08.2018.
+//  Updated by Halil Özel on 14.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,11 +10,11 @@ import UIKit
 import Speech
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-     
+        
+        
         // ses dosyası için bir path tanımlandı.
         if let audioPath = Bundle.main.path(forResource: "sound1", ofType: "mp3"){
             
@@ -37,12 +37,8 @@ class ViewController: UIViewController {
                         print(result?.bestTranscription.formattedString as Any)
                     }
                 }
-                
             })
-            
         }
-        
     }
-
 }
 
