@@ -2,22 +2,21 @@
 //  ViewController.swift
 //  Calculator
 //
-//  Created by Halil Özel on 29.07.2018.
+//  Refactored by Halil Özel on 14.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var numberLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     var newOperation = true
     
     func addNumberToInput(number : String)   {
@@ -31,7 +30,7 @@ class ViewController: UIViewController {
         
         textNumber = textNumber + number
         numberLabel.text = textNumber
-    
+        
     }
     
     
@@ -153,19 +152,13 @@ class ViewController: UIViewController {
             results = number1! - number2!
         case "+":
             results = number1! + number2!
-        
+            
         default:
             results = 0.0
         }
         
         numberLabel.text = String(results!)
         newOperation = true
-        
-        
     }
-    
-    
-    
-
 }
 
