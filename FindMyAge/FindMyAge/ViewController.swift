@@ -2,14 +2,13 @@
 //  ViewController.swift
 //  FindMyAge
 //
-//  Created by Halil Özel on 29.07.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController,UITextFieldDelegate {
-
     
     @IBOutlet weak var txtYearOfBirth: UITextField!
     @IBOutlet weak var labelShowAge: UILabel!
@@ -18,9 +17,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
     
-   
+    
     @IBAction func btnFindAge(_ sender: Any) {
         
         let yearOfBirth = Int (txtYearOfBirth.text!)
@@ -45,15 +43,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     
-    
-    
     // return tuşuna basınca klavye kapanacak.
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-    
+        
         self.view.endEditing(true)
         return true
     }
-    
     
 }
 
