@@ -2,14 +2,14 @@
 //  Photo.swift
 //  TableViewApp
 //
-//  Created by Halil Özel on 15.08.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import Foundation
 
 class Photo {
-
+    
     var name : String = ""
     var profileImage : String = ""
     var caption : String = ""
@@ -22,7 +22,7 @@ class Photo {
         self.profileImage = profileImage
         self.caption = caption
         self.thumbnailImageName = thumbnailImageName
-
+        
     }
     
     class func downloadAllPhotos() -> [Photo]{
@@ -38,8 +38,4 @@ class Photo {
         
         return photos
     }
-    
-    
-    
-    
 }
