@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  DownloadingWebContent
 //
-//  Created by Halil Özel on 13.10.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,7 +10,6 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController {
-
     
     @IBOutlet weak var webView: WKWebView!
     
@@ -19,13 +18,13 @@ class ViewController: UIViewController {
         
         /*
          
-        if let url = URL(string: "https://www.stackoverflow.com"){ // url
-            
-            webView.load(URLRequest(url: url)) // yükle
-            
-            webView.loadHTMLString("<h1>Hello Guys!</h1>", baseURL: nil) // herhangibir sayfaya yazı
-            
-        }*/
+         if let url = URL(string: "https://www.stackoverflow.com"){ // url
+         
+         webView.load(URLRequest(url: url)) // yükle
+         
+         webView.loadHTMLString("<h1>Hello Guys!</h1>", baseURL: nil) // herhangibir sayfaya yazı
+         
+         }*/
         
         
         if let url = URL(string: "https://www.apple.com"){ // url tanımı - unwrapping işlemi
@@ -60,10 +59,6 @@ class ViewController: UIViewController {
             task.resume() // task başlatıldı.
         }
         
-        
-        
     }
-
-
 }
 
