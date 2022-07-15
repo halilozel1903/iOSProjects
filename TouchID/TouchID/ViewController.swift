@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TouchID
 //
-//  Created by Halil Özel on 5.07.2018.
+//  Refactored by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -20,13 +20,13 @@ import LocalAuthentication
  */
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var statusText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         let authContext = LAContext()
         var error : NSError?
         
@@ -40,19 +40,9 @@ class ViewController: UIViewController {
                     
                 }else{ // işlem yanlışsa
                     self.statusText.text = "No" // mesaj yaz
-                }
-                
+                } 
             }
-            
         }
-        
-    
-        
-        
     }
-
-   
-
-
 }
 
