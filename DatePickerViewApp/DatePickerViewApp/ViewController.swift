@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  DatePickerViewApp
 //
-//  Created by Halil Özel on 3.08.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var datePickerView: UITextField!
     
     // date picker nesnesi
@@ -30,9 +30,6 @@ class ViewController: UIViewController {
         
         // input değerini tarih değerine atadı.
         datePickerView.inputView = datePicker
-    
-        
-        
     }
     
     // ekrana bir yere tıklayınca dataPicker kapanacak.
@@ -50,9 +47,5 @@ class ViewController: UIViewController {
         view.endEditing(true)
         
     }
-
-    
-
-
 }
 
