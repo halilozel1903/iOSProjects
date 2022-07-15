@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TouchIDApp
 //
-//  Created by Halil Özel on 15.08.2018.
+//  Refactored by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 import LocalAuthentication
 
 class ViewController: UIViewController {
-
+    
     let authContext = LAContext()
     var error : NSError?
     
@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-   
+    
+    
     @IBAction func showPhoto(_ sender: Any) {
         
         // eğer touch id özelliği varsa aşağıdaki işlemleri yap
@@ -42,11 +42,8 @@ class ViewController: UIViewController {
             }
             
         }else{ // touch id özelliği yoksa aşağıdaki işlemleri yap
-            
             print("Touch id özelliği bulunamadı !!!")
         }
-        
     }
-    
 }
 
