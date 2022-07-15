@@ -2,14 +2,14 @@
 //  KeyboardViewController.swift
 //  Keyboard
 //
-//  Created by Halil Özel on 17.08.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class KeyboardViewController: UIInputViewController {
-
+    
     @IBOutlet var nextKeyboardButton: UIButton!
     
     var keyboardView : UIView! // keyboard değişkeni tanımlandı.
@@ -79,6 +79,4 @@ class KeyboardViewController: UIInputViewController {
             proxy.insertText(text)
         }
     }
-    
-
 }
