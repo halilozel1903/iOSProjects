@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  DelegateDataSaved
 //
-//  Created by Halil Özel on 28.07.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -15,13 +15,11 @@ protocol TeamSelectedDelegate {
 class SecondViewController: UIViewController {
     
     var teamSelectedDelegate : TeamSelectedDelegate!
-
+    
     
     @IBAction func teamSelectedAction(_ sender: UIButton) {
         
         teamSelectedDelegate.teamSelect(name: sender.title(for: .normal)!)
-        
-        
         self.dismiss(animated: true, completion: nil)
         
     }
@@ -29,11 +27,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
-   
-    
-
 }
