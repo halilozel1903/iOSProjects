@@ -2,18 +2,18 @@
 //  ViewController.swift
 //  Colors
 //
-//  Created by Halil Özel on 29.06.2018.
+//  Updated by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     
     @IBAction func greenClicked(_ sender: Any) {
         view.backgroundColor = UIColor.green // arka plan rengini yeşil yaptık.
