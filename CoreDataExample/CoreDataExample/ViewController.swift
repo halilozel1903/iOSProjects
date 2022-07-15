@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  CoreDataExample
 //
-//  Created by Halil Özel on 2.07.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     // verileri diziler yoluyla çekeceğiz
@@ -79,16 +79,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                     }
                     
                     self.tableView.reloadData() // tableview guncelle
-                    
-                    
                 }
             }
             
         } catch  {
             print("ERROR")
         }
-        
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -100,10 +96,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-         selectedTeams = nameArray[indexPath.row] // secilen degerlerle gelecek degerin index değerini esitledik.
-         performSegue(withIdentifier: "detailsVC", sender: nil) // segue olusturduk.
+        selectedTeams = nameArray[indexPath.row] // secilen degerlerle gelecek degerin index değerini esitledik.
+        performSegue(withIdentifier: "detailsVC", sender: nil) // segue olusturduk.
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return nameArray.count // listede bulunacak satır sayısı
     }
@@ -113,12 +109,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         cell.textLabel?.text = nameArray[indexPath.row] // satırlarda bulunacak degerler
         return cell
     }
-
+    
     @IBAction func addClicked(_ sender: Any) {
         selectedTeams = "" // yeni birşey secilmediginde bos olarak gösterebiliriz.
         performSegue(withIdentifier: "detailsVC", sender: nil) // segue olusturduk.
         
     }
-    
 }
 

@@ -2,7 +2,7 @@
 //  detailsVC.swift
 //  CoreDataExample
 //
-//  Created by Halil Özel on 2.07.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import UIKit
 import CoreData // CoreData'ya ait yapıları kullanmamızı sağlıyor.
 
 class detailsVC: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
-
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameText: UITextField!
     @IBOutlet weak var cityNameText: UITextField!
@@ -73,7 +73,7 @@ class detailsVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
                 
             }
         }
-
+        
         imageView.isUserInteractionEnabled = true
         
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(detailsVC.selectedImage))
@@ -95,8 +95,8 @@ class detailsVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
         imageView.image = info[UIImagePickerControllerEditedImage] as? UIImage //sectiğin yapı resim
         self.dismiss(animated: true, completion: nil) // sectikten sonra kapat
     }
-
-
+    
+    
     @IBAction func saveClicked(_ sender: Any) {
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate //app delegate değişkeni olarak tanımladık.
@@ -138,6 +138,4 @@ class detailsVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
         self.navigationController?.popViewController(animated: true) // bulunduğun yerden bir öncekine git.
         
     }
-    
-
 }
