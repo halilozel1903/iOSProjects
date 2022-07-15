@@ -2,17 +2,17 @@
 //  ViewController.swift
 //  WebContentApp
 //
-//  Created by Halil Özel on 4.08.2018.
+//  Refactored by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         // url bilgisi
         let url = URL(string: "https://google.com.tr")
         
@@ -36,15 +36,11 @@ class ViewController: UIViewController {
                     })
                 }
             }else{ // hata varsa
-               print("hata oluştu") // hata mesajı verilir.
+                print("hata oluştu") // hata mesajı verilir.
             }
-            
         }
-        
         task.resume() //Askıya alınmışsa, görevi devam ettirir.
-            
-        }
-        
     }
+}
 
 
