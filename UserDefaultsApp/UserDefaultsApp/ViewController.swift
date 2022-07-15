@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  UserDefaultsApp
 //
-//  Created by Halil Özel on 8.10.2018.
+//  Refactored by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var numberField: UITextField!
     
@@ -36,36 +36,34 @@ class ViewController: UIViewController {
         
         
         /*
+         
+         // String Kullanımı
+         
+         UserDefaults.standard.set("Halil", forKey: "name") // key-value ikilisi tanımlandı.
+         let nameObject = UserDefaults.standard.object(forKey: "name") // nameObject değişkenine atandı.
+         
+         if let name = nameObject as? String{ // unwrapping
+         print(name)
+         }
+         
+         
+         // Array Kullanımı
+         
+         let array = [1,9,9,7] // int türünde array
+         
+         UserDefaults.standard.set(array, forKey: "array") // UserDefaults olusturma
+         
+         let arrayObject = UserDefaults.standard.object(forKey: "array") // UserDefaults okuma
+         
+         
+         if let myArray = arrayObject as? NSArray{ // unwrapping islemi
+         
+         print(myArray) // elemanları yazdırma
+         }
+         
+         */
         
-        // String Kullanımı
-        
-        UserDefaults.standard.set("Halil", forKey: "name") // key-value ikilisi tanımlandı.
-        let nameObject = UserDefaults.standard.object(forKey: "name") // nameObject değişkenine atandı.
-        
-        if let name = nameObject as? String{ // unwrapping
-             print(name)
-        }
-        
-        
-        // Array Kullanımı
-        
-        let array = [1,9,9,7] // int türünde array
-        
-        UserDefaults.standard.set(array, forKey: "array") // UserDefaults olusturma
-        
-        let arrayObject = UserDefaults.standard.object(forKey: "array") // UserDefaults okuma
-        
-        
-        if let myArray = arrayObject as? NSArray{ // unwrapping islemi
-            
-            print(myArray) // elemanları yazdırma
-        }
-        
-        */
-       
         
     }
-
-
 }
 
