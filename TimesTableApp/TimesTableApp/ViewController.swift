@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TimesTableApp
 //
-//  Created by Halil Özel on 7.10.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -41,10 +41,5 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
-    
-    
-    
-
 }
 
