@@ -2,22 +2,20 @@
 //  FirstViewController.swift
 //  ToDoList
 //
-//  Created by Halil Özel on 9.10.2018.
+//  Refactored by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-  
+    
     @IBOutlet weak var table: UITableView!
     
     var items:[String] = [] // değiştirilebilir array türü
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-        
     }
     
     
@@ -26,12 +24,11 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         return items.count // table row sayısı item değerlerinin sayısı kadar.
     }
     
-
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell")
-       
         
         cell.textLabel?.text = items[indexPath.row] // değeri text'e atadık.
         
@@ -50,7 +47,6 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
             
             UserDefaults.standard.set(items, forKey: "items") // verileri check et
         }
-        
     }
     
     
@@ -65,9 +61,6 @@ class FirstViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         }
         
         table.reloadData() // tabloyu güncelle
-        
     }
-
-
 }
 

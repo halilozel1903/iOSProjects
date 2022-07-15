@@ -2,19 +2,19 @@
 //  SecondViewController.swift
 //  ToDoList
 //
-//  Created by Halil Özel on 9.10.2018.
+//  Refactored by Halil Özel on 15.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class SecondViewController: UIViewController,UITextFieldDelegate {
-
+    
     @IBOutlet weak var itemTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
     }
     
     @IBAction func add(_ sender: Any) {
@@ -34,7 +34,6 @@ class SecondViewController: UIViewController,UITextFieldDelegate {
         UserDefaults.standard.set(items, forKey: "items")
         
         itemTextField.text = ""
-        
     }
     
     
@@ -44,13 +43,8 @@ class SecondViewController: UIViewController,UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        
         textField.resignFirstResponder()
-        
         return true
     }
-    
-
-
 }
 
