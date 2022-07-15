@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  TableViewExample
 //
-//  Created by Halil Özel on 30.06.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     var teamsAraay = [Teams]() // Teams sınıfından bir aray oluşturma
@@ -42,11 +42,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         ts.date = "1967"
         ts.image = UIImage(named: "ts.png")!
         
-         teamsAraay.append(bjk)
-         teamsAraay.append(fb)
-         teamsAraay.append(gs)
-         teamsAraay.append(ts)
-        
+        teamsAraay.append(bjk)
+        teamsAraay.append(fb)
+        teamsAraay.append(gs)
+        teamsAraay.append(ts)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -71,9 +70,5 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             destinationVC.selectedTeams = self.chosenTeam
         }
     }
-
-
-
-
 }
 

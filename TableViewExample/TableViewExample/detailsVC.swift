@@ -2,14 +2,14 @@
 //  detailsVC.swift
 //  TableViewExample
 //
-//  Created by Halil Özel on 30.06.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class detailsVC: UIViewController {
-
+    
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -19,14 +19,10 @@ class detailsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         nameLabel.text = selectedTeams.name
         dateLabel.text = selectedTeams.date
         imageView.image = selectedTeams.image
         
     }
-
-
-
-
 }
