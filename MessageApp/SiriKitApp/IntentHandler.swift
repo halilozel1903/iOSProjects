@@ -2,7 +2,7 @@
 //  IntentHandler.swift
 //  SiriKitApp
 //
-//  Created by Halil Özel on 13.08.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -38,7 +38,7 @@ class IntentHandler: INExtension, INSendMessageIntentHandling {
     // hesaplı işlemlerde giriş yapılıp yapılmadığını öğrenilen alandır.
     func confirm(intent: INSendMessageIntent, completion: @escaping (INSendMessageIntentResponse) -> Void) {
         
-        var  isLogged = true
+        let  isLogged = true
         
         // başarılı ise
         if isLogged{
@@ -46,8 +46,8 @@ class IntentHandler: INExtension, INSendMessageIntentHandling {
             completion(INSendMessageIntentResponse(code: .success, userActivity: nil))
             
         }
-            
-            // başarısız ise 
+        
+        // başarısız ise
         else{
             let response = INSendMessageIntentResponse(code: .failureRequiringAppLaunch, userActivity: nil)
             completion(response)
@@ -60,14 +60,11 @@ class IntentHandler: INExtension, INSendMessageIntentHandling {
         
     }
     
-    
-    
     override func handler(for intent: INIntent) -> Any {
         // This is the default implementation.  If you want different objects to handle different intents,
         // you can override this and return the handler you want for that particular intent.
         
         return self
     }
-    
 }
 

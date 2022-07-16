@@ -2,7 +2,7 @@
 //  IntentViewController.swift
 //  SiriKitAppUI
 //
-//  Created by Halil Özel on 13.08.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
