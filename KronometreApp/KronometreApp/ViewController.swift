@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  KronometreApp
 //
-//  Created by Halil Özel on 23.07.2018.
+//  Updated by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -24,10 +24,10 @@ class ViewController: UIViewController {
         
         // saniye 0 ise bir defa başlat tuşuna basabiliriz.
         if second == 0 {
-             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(increase1), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(increase1), userInfo: nil, repeats: true)
         }
         
-       
+        
     }
     
     
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
             second -= 10
             scoreLabel.text = String(second)
         }
-       
+        
     }
     
     // değeri resetle
@@ -74,9 +74,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
-
-
 }
 
