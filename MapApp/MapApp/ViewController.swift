@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MapApp
 //
-//  Created by Halil Özel on 31.07.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,8 +10,6 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController {
-
-    
     
     @IBOutlet weak var mapView: MKMapView!
     
@@ -48,9 +46,6 @@ class ViewController: UIViewController {
         longPress.minimumPressDuration = 2
         mapView.addGestureRecognizer(longPress)
         
-        
-    
-        
     }
     
     // kullanıcı map'e dokununca pin ekleme yeri
@@ -64,8 +59,5 @@ class ViewController: UIViewController {
         
         mapView.addAnnotation(annotation)
     }
-
-    
-
 }
 
