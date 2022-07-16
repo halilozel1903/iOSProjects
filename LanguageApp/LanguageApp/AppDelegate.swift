@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LanguageApp
 //
-//  Created by Halil Özel on 4.09.2018.
+//  Updated by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
