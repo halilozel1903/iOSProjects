@@ -2,7 +2,7 @@
 //  tableVC.swift
 //  MapView
 //
-//  Created by Halil Özel on 5.07.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,9 +10,9 @@ import UIKit
 import CoreData
 
 class tableVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+    
     @IBOutlet weak var tableView: UITableView!
-
+    
     var titleArray = [String]()
     var subtitleArray = [String]()
     var latitudeArray = [Double]()
@@ -26,7 +26,7 @@ class tableVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         tableView.dataSource = self
         tableView.delegate = self
         
@@ -47,7 +47,7 @@ class tableVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         request.returnsObjectsAsFaults = false
         
         do {
-           let results = try context.fetch(request)
+            let results = try context.fetch(request)
             
             if results.count > 0 {
                 self.titleArray.removeAll(keepingCapacity: false)
@@ -108,7 +108,7 @@ class tableVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
             destinationVC.selectedLongitude = self.selectedLongitude
         }
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titleArray.count
     }

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MapView
 //
-//  Created by Halil Özel on 3.07.2018.
+//  Updated by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ import CoreLocation // Lokasyonla ilgili işlemler yapılacak
 import CoreData // veritabanı işlemleri
 
 class mapVC: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
-
+    
     // info.plist'e gerekli izni ve açıklamasını eklemeyi unutmayınız !!!
     
     
@@ -35,7 +35,7 @@ class mapVC: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         /*Bir harita görünümü, harita verilerinin yüklenmesine ve görüntülenen haritanın bölümünün değiştirilmesine ilişkin olarak temsilcisine mesaj gönderir. Temsilci ayrıca haritadaki ilgi noktalarını vurgulamak için kullanılan ek açıklama görünümlerini de yönetir. */
         
         mapView.delegate = self // haritayı eklemek için gerekli yapı
@@ -67,8 +67,6 @@ class mapVC: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
             nameText.text = self.selectedTitle
             commentText.text = self.selectedSubtitle
         }
-        
-        
     }
     
     // seçilen lokasyonla ilgili işlemler yapılan metod
@@ -91,9 +89,7 @@ class mapVC: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
             annotation.title = nameText.text // başlık veriliyor.
             annotation.subtitle = commentText.text // alt başlık veriliyor.
             self.mapView.addAnnotation(annotation) // annotation haritaya ekleniyor.
-            
         }
-        
     }
     
     
@@ -158,8 +154,6 @@ class mapVC: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
                     
                     let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeKey]
                     item.openInMaps(launchOptions : launchOptions)
-                    
-                    
                 }
             }
         }
@@ -190,8 +184,5 @@ class mapVC: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
         self.navigationController?.popViewController(animated: true)
         
     }
-    
-   
-
 }
 
