@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  GestureRecogziner
 //
-//  Created by Halil Özel on 28.06.2018.
+//  Updated by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var imageView: UIImageView! // image view tanım
     
     @IBOutlet weak var etFruit: UILabel! // label tanımı
@@ -18,12 +18,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         imageView.isUserInteractionEnabled = true // tıklanabilirlik özelliği eklendi.
         
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.changePic))
         imageView.addGestureRecognizer(gestureRecognizer) // Ekrana yapılan dokunmaları takip eden metoddur.
-        
     }
     
     
@@ -42,8 +41,5 @@ class ViewController: UIViewController {
         }
         
     }
-
-   
-
 }
 
