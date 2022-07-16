@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  MVVMApp
 //
-//  Created by Halil Özel on 6.08.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     // değişken tanımlamaları yapıldı.
     @IBOutlet weak var paraBirimAdi: UILabel!
@@ -40,9 +40,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-   
-
-
 }
 
