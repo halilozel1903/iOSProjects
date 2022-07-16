@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ECC4A73CD9F17EF4632FA16 /* Pods_JsonApiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1617CEC18A4BC3EB00C8129A /* Pods_JsonApiApp.framework */; };
+		4134E2B3AE348DA9F5C1D535 /* Pods_JsonApiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D691D1502E70C790F8F64EA /* Pods_JsonApiApp.framework */; };
 		9FAC21B2216E5FD10029DEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC21B1216E5FD10029DEAF /* AppDelegate.swift */; };
 		9FAC21B7216E5FD10029DEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAC21B5216E5FD10029DEAF /* Main.storyboard */; };
 		9FAC21B9216E5FD20029DEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAC21B8216E5FD20029DEAF /* Assets.xcassets */; };
@@ -18,9 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		090F8F8C091EE97B578AC54A /* Pods-JsonApiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonApiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp.debug.xcconfig"; sourceTree = "<group>"; };
-		1617CEC18A4BC3EB00C8129A /* Pods_JsonApiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonApiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D624C4FEF0D7C7AB5BAF62 /* Pods-JsonApiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonApiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp.release.xcconfig"; sourceTree = "<group>"; };
+		3D691D1502E70C790F8F64EA /* Pods_JsonApiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonApiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D8C7B7BD05B9AE47C6802C /* Pods-JsonApiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonApiApp.debug.xcconfig"; path = "Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9FAC21AE216E5FD10029DEAF /* JsonApiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonApiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAC21B1216E5FD10029DEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FAC21B6216E5FD10029DEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		9FAC21C3216E8BA90029DEAF /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		9FAC21C5216E8BB60029DEAF /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		9FAC21C7216E8C690029DEAF /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		CB5DC6B3B84F00622C413CDE /* Pods-JsonApiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonApiApp.release.xcconfig"; path = "Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,20 +37,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECC4A73CD9F17EF4632FA16 /* Pods_JsonApiApp.framework in Frameworks */,
+				4134E2B3AE348DA9F5C1D535 /* Pods_JsonApiApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5EFD994D3CD4B49CD2BF4A96 /* Pods */ = {
+		8B663FBFA1F92C836C83AE41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				090F8F8C091EE97B578AC54A /* Pods-JsonApiApp.debug.xcconfig */,
-				91D624C4FEF0D7C7AB5BAF62 /* Pods-JsonApiApp.release.xcconfig */,
+				3D691D1502E70C790F8F64EA /* Pods_JsonApiApp.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9FAC21A5216E5FD10029DEAF = {
@@ -58,8 +57,8 @@
 			children = (
 				9FAC21B0216E5FD10029DEAF /* JsonApiApp */,
 				9FAC21AF216E5FD10029DEAF /* Products */,
-				5EFD994D3CD4B49CD2BF4A96 /* Pods */,
-				DE1AC57D1682C9479B0D1957 /* Frameworks */,
+				EC7FC071853DEEDF452C26BD /* Pods */,
+				8B663FBFA1F92C836C83AE41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,12 +85,14 @@
 			path = JsonApiApp;
 			sourceTree = "<group>";
 		};
-		DE1AC57D1682C9479B0D1957 /* Frameworks */ = {
+		EC7FC071853DEEDF452C26BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1617CEC18A4BC3EB00C8129A /* Pods_JsonApiApp.framework */,
+				66D8C7B7BD05B9AE47C6802C /* Pods-JsonApiApp.debug.xcconfig */,
+				CB5DC6B3B84F00622C413CDE /* Pods-JsonApiApp.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,11 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FAC21C0216E5FD20029DEAF /* Build configuration list for PBXNativeTarget "JsonApiApp" */;
 			buildPhases = (
-				A0B9525BC1D39E9371D28CC0 /* [CP] Check Pods Manifest.lock */,
+				02F714E44B461B7ACD2D31FC /* [CP] Check Pods Manifest.lock */,
 				9FAC21AA216E5FD10029DEAF /* Sources */,
 				9FAC21AB216E5FD10029DEAF /* Frameworks */,
 				9FAC21AC216E5FD10029DEAF /* Resources */,
-				36D4F57062F1AD26C9B6A29C /* [CP] Embed Pods Frameworks */,
+				3EDDE5553563E840A77361ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,42 +164,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36D4F57062F1AD26C9B6A29C /* [CP] Embed Pods Frameworks */ = {
+		02F714E44B461B7ACD2D31FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0B9525BC1D39E9371D28CC0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-JsonApiApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EDDE5553563E840A77361ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JsonApiApp/Pods-JsonApiApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,7 +357,7 @@
 		};
 		9FAC21C1216E5FD20029DEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 090F8F8C091EE97B578AC54A /* Pods-JsonApiApp.debug.xcconfig */;
+			baseConfigurationReference = 66D8C7B7BD05B9AE47C6802C /* Pods-JsonApiApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,7 +376,7 @@
 		};
 		9FAC21C2216E5FD20029DEAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91D624C4FEF0D7C7AB5BAF62 /* Pods-JsonApiApp.release.xcconfig */;
+			baseConfigurationReference = CB5DC6B3B84F00622C413CDE /* Pods-JsonApiApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

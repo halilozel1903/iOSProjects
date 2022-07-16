@@ -2,14 +2,14 @@
 //  MainTableViewCell.swift
 //  JsonApiApp
 //
-//  Created by Halil Özel on 10.10.2018.
+//  Refactored by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class MainTableViewCell: UITableViewCell {
-
+    
     
     //MARK: - IBOutlets // yapıları koda bağladık.
     @IBOutlet weak var currencyCode: UILabel!
@@ -23,11 +23,10 @@ class MainTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
 }

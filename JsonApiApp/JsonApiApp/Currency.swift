@@ -2,7 +2,7 @@
 //  Currency.swift
 //  JsonApiApp
 //
-//  Created by Halil Özel on 10.10.2018.
+//  Refactored by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,7 +10,6 @@ import Foundation
 
 // Struct tanımlaması
 struct Currency {
-    
     // elemanları tanımlandı.
     var selling : Double
     var update_date : Int
@@ -20,5 +19,4 @@ struct Currency {
     var name : String
     var full_name : String
     var code : String
-    
 }
