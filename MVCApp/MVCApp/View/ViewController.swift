@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  MVCApp
 //
-//  Created by Halil Özel on 6.08.2018.
+//  Refactored by Halil Özel on 16.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var fullName: UILabel!
     @IBOutlet weak var code: UILabel!
@@ -28,16 +28,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     func printScreen(){
-        
         self.fullName.text = money.full_name
         self.code.text = money.code
         self.buying.text = money.buyingString
         self.selling.text = money.sellingString
         self.updateDate.text = money.dateString
     }
-
-
 }
 
