@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83ABEA2766205E43C14B396E /* Pods_LanguageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC7F9E431F254F15CFFF758 /* Pods_LanguageApp.framework */; };
 		9F12DA02213E9F4C00AC10BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12DA01213E9F4C00AC10BD /* AppDelegate.swift */; };
 		9F12DA04213E9F4C00AC10BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12DA03213E9F4C00AC10BD /* ViewController.swift */; };
 		9F12DA07213E9F4C00AC10BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F12DA05213E9F4C00AC10BD /* Main.storyboard */; };
 		9F12DA09213E9F4E00AC10BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F12DA08213E9F4E00AC10BD /* Assets.xcassets */; };
 		9F12DA0C213E9F4E00AC10BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F12DA0A213E9F4E00AC10BD /* LaunchScreen.storyboard */; };
-		FF9A9561815AD9EB220F4681 /* Pods_LanguageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDFEC8628457B34F7FCD00B /* Pods_LanguageApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1DDFEC8628457B34F7FCD00B /* Pods_LanguageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73AD0549999C91BB952D433D /* Pods-LanguageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageApp/Pods-LanguageApp.release.xcconfig"; sourceTree = "<group>"; };
-		96BBD66C88768AA3A3391F4D /* Pods-LanguageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageApp/Pods-LanguageApp.debug.xcconfig"; sourceTree = "<group>"; };
+		41401560962AF409C768A400 /* Pods-LanguageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageApp.release.xcconfig"; path = "Target Support Files/Pods-LanguageApp/Pods-LanguageApp.release.xcconfig"; sourceTree = "<group>"; };
+		5966E34448C495622A97CD7C /* Pods-LanguageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageApp.debug.xcconfig"; path = "Target Support Files/Pods-LanguageApp/Pods-LanguageApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9CC7F9E431F254F15CFFF758 /* Pods_LanguageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F12D9FE213E9F4C00AC10BD /* LanguageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F12DA01213E9F4C00AC10BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F12DA03213E9F4C00AC10BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,20 +33,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9A9561815AD9EB220F4681 /* Pods_LanguageApp.framework in Frameworks */,
+				83ABEA2766205E43C14B396E /* Pods_LanguageApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E31FD43B0B553439834FE60 /* Pods */ = {
+		6D43A8A4D6D3358559613337 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				96BBD66C88768AA3A3391F4D /* Pods-LanguageApp.debug.xcconfig */,
-				73AD0549999C91BB952D433D /* Pods-LanguageApp.release.xcconfig */,
+				5966E34448C495622A97CD7C /* Pods-LanguageApp.debug.xcconfig */,
+				41401560962AF409C768A400 /* Pods-LanguageApp.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		9F12D9F5213E9F4C00AC10BD = {
@@ -54,8 +55,8 @@
 			children = (
 				9F12DA00213E9F4C00AC10BD /* LanguageApp */,
 				9F12D9FF213E9F4C00AC10BD /* Products */,
-				0E31FD43B0B553439834FE60 /* Pods */,
-				BC385CCBD48F9B94D3482596 /* Frameworks */,
+				6D43A8A4D6D3358559613337 /* Pods */,
+				ACB4A43974CEBD442CCAE4DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,10 +81,10 @@
 			path = LanguageApp;
 			sourceTree = "<group>";
 		};
-		BC385CCBD48F9B94D3482596 /* Frameworks */ = {
+		ACB4A43974CEBD442CCAE4DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DDFEC8628457B34F7FCD00B /* Pods_LanguageApp.framework */,
+				9CC7F9E431F254F15CFFF758 /* Pods_LanguageApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,11 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F12DA10213E9F4E00AC10BD /* Build configuration list for PBXNativeTarget "LanguageApp" */;
 			buildPhases = (
-				8348E9283BFFEDF20A3661E7 /* [CP] Check Pods Manifest.lock */,
+				842B56F10FE73CD32F5FC968 /* [CP] Check Pods Manifest.lock */,
 				9F12D9FA213E9F4C00AC10BD /* Sources */,
 				9F12D9FB213E9F4C00AC10BD /* Frameworks */,
 				9F12D9FC213E9F4C00AC10BD /* Resources */,
-				4FC5E9FEB02AD3C9C163232F /* [CP] Embed Pods Frameworks */,
+				562E54596AB5122C9FBDC8A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,34 +158,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4FC5E9FEB02AD3C9C163232F /* [CP] Embed Pods Frameworks */ = {
+		562E54596AB5122C9FBDC8A5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LanguageApp/Pods-LanguageApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanguageApp/Pods-LanguageApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LanguageApp/Pods-LanguageApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageApp/Pods-LanguageApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LanguageApp/Pods-LanguageApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8348E9283BFFEDF20A3661E7 /* [CP] Check Pods Manifest.lock */ = {
+		842B56F10FE73CD32F5FC968 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LanguageApp-checkManifestLockResult.txt",
 			);
@@ -343,7 +347,7 @@
 		};
 		9F12DA11213E9F4E00AC10BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96BBD66C88768AA3A3391F4D /* Pods-LanguageApp.debug.xcconfig */;
+			baseConfigurationReference = 5966E34448C495622A97CD7C /* Pods-LanguageApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -362,7 +366,7 @@
 		};
 		9F12DA12213E9F4E00AC10BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73AD0549999C91BB952D433D /* Pods-LanguageApp.release.xcconfig */;
+			baseConfigurationReference = 41401560962AF409C768A400 /* Pods-LanguageApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

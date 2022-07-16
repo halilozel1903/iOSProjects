@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  LanguageApp
 //
-//  Created by Halil Özel on 4.09.2018.
+//  Updated by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -11,20 +11,20 @@ import ActionSheetPicker_3_0
 
 
 class ViewController: UIViewController {
-
+    
     let languageCodes = ["en","tr"] // değişikliğe uğrayacak dillerin kodları
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     // dili değiştirmek için kullanılan metod
     @IBAction func changeLanguage(_ sender: Any) {
-       ActionSheetMultipleStringPicker.show(withTitle: NSLocalizedString("Change Language Title", comment: "") ,
-        rows: [["English","Türkçe"]],
-        initialSelection: [0],
-        doneBlock: { (picker, indexes, values) in
+        ActionSheetMultipleStringPicker.show(withTitle: NSLocalizedString("Change Language Title", comment: "") ,
+                                             rows: [["English","Türkçe"]],
+                                             initialSelection: [0],
+                                             doneBlock: { (picker, indexes, values) in
             let index = indexes?[0] as! Int
             
             UserDefaults.standard.set(self.languageCodes[index], forKey: "AppleLanguages")
@@ -33,19 +33,19 @@ class ViewController: UIViewController {
             
             print("Uygulamayı açıp kapayınız dili değişecektir.")
             
-           // print("seçilen dil : \(index)")
+            // print("seçilen dil : \(index)")
             
             return
-       },
-        cancel: { (ActionMultipleStringCancelBlock) in return
+        },
+                                             cancel: { (ActionMultipleStringCancelBlock) in return
             
-       },
-        origin: sender)
+        },
+                                             origin: sender)
         
         
         
     }
     
-
+    
 }
 
