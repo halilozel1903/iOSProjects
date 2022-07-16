@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  IntelligentImage
 //
-//  Created by Halil Özel on 7.07.2018.
+//  Refactored by Halil Özel on 17.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -11,19 +11,17 @@ import CoreML
 import Vision
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate,UINavigationControllerDelegate {
-
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
     
     var chosenImage = CIImage()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-   
+    
+    
     @IBAction func choosenImageClicked(_ sender: Any) {
-        
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.allowsEditing = true
@@ -42,15 +40,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,UINaviga
             
             self.chosenImage = ciImage
         }
-        
         recognizeImage(image: chosenImage)
-        
     }
     
     
     func recognizeImage(image : CIImage){
         
-    textLabel.text = "Finding ..." // kullanıcı resim analiz edilirken bu mesajı görecek
+        textLabel.text = "Finding ..." // kullanıcı resim analiz edilirken bu mesajı görecek
         
         // elimizdeki modeli eşitleme işlemi yapılıyor.
         
@@ -71,9 +67,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,UINaviga
                         
                         self.textLabel.text = "\(conf)% it's \(topResult!.identifier)" // sonucu ekranda yazdır.
                     }
-                    
                 }
-                
             })
             
             // handler kullanımı
@@ -82,20 +76,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,UINaviga
             DispatchQueue.global(qos: .userInteractive).async {
                 
                 do{
-                    
                     try handler.perform([request]) // sonucu gönder
                     
                 }catch{
                     print("error") // hata bastır.
                 }
             }
-            
         }
-        
     }
-    
-    
-    
-
 }
 
