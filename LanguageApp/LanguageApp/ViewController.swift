@@ -37,15 +37,10 @@ class ViewController: UIViewController {
             
             return
         },
-                                             cancel: { (ActionMultipleStringCancelBlock) in return
+        cancel: { (ActionMultipleStringCancelBlock) in return
             
         },
-                                             origin: sender)
-        
-        
-        
+           origin: sender)
     }
-    
-    
 }
 
