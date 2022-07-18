@@ -17,7 +17,6 @@ It is a project that includes applications at different levels developed with Sw
 
 - [Images](https://github.com/halilozel1903/iOSProjects/tree/master/Images)
 - [Segues](https://github.com/halilozel1903/iOSProjects/tree/master/Segues)
-- [Timers](https://github.com/halilozel1903/iOSProjects/tree/master/Timers)
 - [Gesture Recognizer](https://github.com/halilozel1903/iOSProjects/tree/master/GestureRecogziner)
 - [Colors](https://github.com/halilozel1903/iOSProjects/tree/master/Colors)
 - [Launch Screen](https://github.com/halilozel1903/iOSProjects/tree/master/LaunchScreen)
