@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var messageTxt: UILabel!
     
     @IBAction func cameraItem(_ sender: Any) {
@@ -21,10 +21,8 @@ class ViewController: UIViewController {
         messageTxt.text = "Search butonuna tıklandı !!!"
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 }
 
