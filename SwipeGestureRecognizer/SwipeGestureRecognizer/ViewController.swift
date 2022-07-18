@@ -2,20 +2,20 @@
 //  ViewController.swift
 //  SwipeGestureRecognizer
 //
-//  Created by Halil Özel on 2.08.2018.
+//  Updated by Halil Özel on 19.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var myImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        
         myImage.isUserInteractionEnabled = true
         
         let swiftRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeGesture))
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
         
     }
-
+    
     @objc func swipeGesture(sender : UISwipeGestureRecognizer)  {
         
         if let swipeGesture = sender as? UISwipeGestureRecognizer{
@@ -56,20 +56,15 @@ class ViewController: UIViewController {
                 print("Swipe Up")
                 myImage.image = UIImage(named: "4")
                 
-            
+                
             case UISwipeGestureRecognizerDirection.down :
                 print("Swipe Down")
                 myImage.image = UIImage(named: "5")
-            
-        
-                
             default :
                 break
             }
         }
         
     }
-    
-
 }
 
