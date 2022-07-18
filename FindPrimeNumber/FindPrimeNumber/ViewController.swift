@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  FindPrimeNumber
 //
-//  Created by Halil Özel on 19.08.2018.
+//  Refactored by Halil Özel on 18.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var numberTextField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     
@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-   // asal sayıyı bulma fonksiyonu
+    
+    // asal sayıyı bulma fonksiyonu
     @IBAction func findNumber(_ sender: Any) {
         
         if let userEnteredString = numberTextField.text{
@@ -34,12 +34,13 @@ class ViewController: UIViewController {
                     isPrime = false
                 }
                 
-                var i = 2
+                let i = 2
                 
                 while i < number{
                     if number % i == 0{
                         isPrime = false
                     }
+                    break
                 }
                 
                 if isPrime{ // asal sayı ise
@@ -52,6 +53,5 @@ class ViewController: UIViewController {
             }
         }
     }
-    
 }
 
