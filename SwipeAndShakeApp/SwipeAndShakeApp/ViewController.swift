@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  SwipeAndShakeApp
 //
-//  Created by Halil Özel on 1.08.2018.
+//  Updated by Halil Özel on 19.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,23 +35,18 @@ class ViewController: UIViewController {
         let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(swipped(gesture:)))
         swipeDown.direction = UISwipeGestureRecognizerDirection.down
         self.view.addGestureRecognizer(swipeDown)
-        
-        
-       
-        
-        
     }
     
     
     // uygulamayı titretme işlemi
-   override func motionEnded(_ motion:UIEventSubtype, with event: UIEvent?){
+    override func motionEnded(_ motion:UIEventSubtype, with event: UIEvent?){
         
         if event?.subtype == UIEventSubtype.motionShake{
             print("cihaz sallandı")
         }
     }
-
-  
+    
+    
     // kaydırma hareketlerinin ayrıştırılması
     @objc func swipped(gesture:UIGestureRecognizer){
         
@@ -67,9 +62,6 @@ class ViewController: UIViewController {
                 print("aşağıdan yukarı")
             }
         }
-        
     }
-
-
 }
 
