@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  PickerViewApp
 //
-//  Created by Halil Özel on 3.08.2018.
+//  Refactored by Halil Özel on 18.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
-
+    
     
     let pickerData = ["Türkiye","Almanya","Brezilya","Şili","Portekiz","İspanya","Kanada","Hollanda","Hırvatistan"]
     
@@ -22,14 +22,14 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         pickerView.dataSource = self
         pickerView.delegate = self
     }
-
-
+    
+    
     // 1 başlık altında listeleme işlemleri
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
-
+    
     // kaç edat eleman olacak
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerData.count
@@ -46,6 +46,5 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print("Seçilen ülke : \(pickerData[row])")
     }
-
 }
 
