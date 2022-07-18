@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  MultipleViewControllers
 //
-//  Created by Halil Özel on 8.10.2018.
+//  Refactored by Halil Özel on 18.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -12,19 +12,5 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
