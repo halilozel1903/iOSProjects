@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SpeechApp
 //
-//  Created by Halil Özel on 11.08.2018.
+//  Created by Halil Özel on 20.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 import Speech
 
 class ViewController: UIViewController,SFSpeechRecognizerDelegate {
-
+    
     @IBOutlet weak var textDetail: UITextView!
     @IBOutlet weak var playButton: UIButton!
     
@@ -39,7 +39,7 @@ class ViewController: UIViewController,SFSpeechRecognizerDelegate {
                 case .denied:
                     self.playButton.setTitle("Lütfen izninizi kontrol ediniz", for: .normal)
                     self.playButton.isEnabled = false
-                
+                    
                 case .notDetermined:
                     self.playButton.setTitle("Lütfen izin veriniz.", for: .normal)
                     self.playButton.isEnabled = false
@@ -48,14 +48,11 @@ class ViewController: UIViewController,SFSpeechRecognizerDelegate {
                     break
                     
                 }
-                
-                
             }
         }
-        
     }
-
-
+    
+    
     // butona tıklanınca yapılacak işlemler
     @IBAction func playClicked(_ sender: Any) {
         
@@ -118,17 +115,6 @@ class ViewController: UIViewController,SFSpeechRecognizerDelegate {
                 print("error") // hata mesajı
             }
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
-    
-
 }
 
