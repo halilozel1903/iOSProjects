@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  Segues
 //
-//  Created by Halil Özel on 21.06.2018.
+//  Created by Halil Özel on 20.07.2022.
 //  Copyright © 2018 Halil Özel. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var username = "" // string türünde bir değişken tanımı
     
     @IBOutlet weak var myLabel: UILabel!
@@ -33,14 +33,12 @@ class ViewController: UIViewController {
             
         }
     }
-
-
+    
     @IBAction func saveClicked(_ sender: Any) {
         
         username = nameText.text! // alınan değer text içeriğindeki değere eşit olacak
         
         performSegue(withIdentifier: "fromFirstToSecond", sender: nil) // segue çalışması için gerekli metod
     }
-    
 }
 
