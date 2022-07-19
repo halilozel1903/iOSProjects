@@ -11,20 +11,16 @@ import AVKit
 import Speech
 
 class ViewController: UIViewController {
-
-    
     @IBOutlet weak var txtMusic: UITextView!
     @IBOutlet weak var loading: UIActivityIndicatorView!
     var audioPlayer : AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     
     @IBAction func playClicked(_ sender: Any) {
-        
         self.requestSpeechAuth()
     }
     
@@ -42,7 +38,7 @@ class ViewController: UIViewController {
                         self.audioPlayer.play()
                         
                     }catch{
-                    
+                        
                         print("Error !!!")
                     }
                     
@@ -57,12 +53,8 @@ class ViewController: UIViewController {
                         }
                     })
                 }
-                
             }
-            
         }
     }
-    
-
 }
 
