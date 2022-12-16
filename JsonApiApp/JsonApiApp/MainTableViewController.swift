@@ -17,7 +17,7 @@ class MainTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getLatesData() // metodu çağır.
+        getLatestData() // metodu çağır.
         
     }
     
@@ -50,7 +50,7 @@ class MainTableViewController: UITableViewController {
     
     
     //MARK: - Functions // JSON ile veriyi aldık. İşledik. Gösterdik.
-    func getLatesData(){
+    func getLatestData(){
         
         Alamofire.request("https://www.doviz.com/api/v1/currencies/all/latest", method: .get).validate().responseJSON { response in
             switch response.result { // sonuc basarılı ise
