@@ -2,16 +2,23 @@
 
 ![Screenshot](Screenshots/iOSApp.jpg)
 
-Swift is a powerful and intuitive programming language for iOS, iPadOS, macOS, tvOS, and watchOS. Writing Swift code is interactive and fun, the syntax is concise yet expressive, and Swift includes modern features developers love. Swift code is safe by design, yet also produces software that runs lightning-fast.
+Swift is a powerful, safe, and expressive programming language for Apple platforms. This repository collects UIKit-based learning projects and keeps their project settings aligned with modern Swift 5 tooling and a practical iOS 13+ baseline.
 
 ## The goal of the Project ⁉️
 
-I continue to explain the basic issues about Swift 5.5 in the previous project. It is a project created to reinforce what we learned and to develop different projects.
+This repository brings together small iOS projects that reinforce core Swift, UIKit, navigation, persistence, networking, gestures, maps, and media concepts with current project settings.
 
 
 ## Content of the Project 🎁
-It is a project that includes applications at different levels developed with Swift 5.5 
+It includes applications at different levels developed with Swift 5-compatible settings and an iOS 13+ deployment target.
 
+
+
+## Modern baseline ✨
+
+- Swift language version: Swift 5 project setting across Xcode projects.
+- Deployment target: iOS 13.0 for older sample apps so they use a modern UIKit baseline while keeping broad device compatibility.
+- Tooling metadata: Xcode project upgrade checks are normalized for current Xcode-era settings.
 
 ## Apps 📱 💻 📺 ⌚️
 
@@ -84,7 +91,7 @@ It is a project that includes applications at different levels developed with Sw
 - [To Do List](https://github.com/halilozel1903/iOSProjects/tree/master/ToDoList) : TabView, TableView, Label, Text Field and Button are used in To Do List application. Thanks to the tab, you can switch between pages. When the user adds to the 2nd page and clicks the add button, he is registered in UserDefaults and lists it with the help of TableView on the first screen. The table is updated for each added data. If there is something we do not want in the list, we can delete that component by pulling the cell from right to left. The table is updated again with the deleted element.
 
 <img src="Screenshots/toDoList1.png" width="200" /> <img src="Screenshots/toDoList6.png" width="200" /> <img src="Screenshots/toDoList2.png" width="200" /> <br>
-<img src="Screenshots/toDoList3.png" width="200" />  <img src="Screenshots/toDoList4.png" width="200" /> <img src="Screenshots/toDoList5.png" width="200" /> 
+<img src="Screenshots/toDoList3.png" width="200" />  <img src="Screenshots/toDoList4.png" width="200" /> <img src="Screenshots/toDoList5.png" width="200" />
 
 
 - [Currency App](https://github.com/halilozel1903/iOSProjects/tree/master/JsonApiApp) : Currency application is a basic application that instantly takes information with currencies and is displayed to the user. The user can see the code, buy-sell values and name related to the currency. Since the application uses JSON data, [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) library is used. To be able to execute transactions related to extra HTTP requests [Alamofire](https://github.com/Alamofire/Alamofire) library is used. As an API [Döviz API](https://www.doviz.com/api/v1/currencies/all/latest) used.
